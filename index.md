@@ -1,14 +1,15 @@
 ---
 
 layout: col-sidebar
-title: OWASP SPVS
-tags: example-tag
+title: Secure Pipeline Verification Standard (SPVS)
+tags: spvs
 level: 4
 type: standards
 pitch: The Secure Pipeline Verification Standard (SPVS) Project goal is to develop a comprehensive standard that guides organizations in creating and maintaining secure software pipelines, encompassing the entire development and deployment lifecycle.
 headerimage: ./assets/images/SPVS_Logo.png
 
 ---
+![spvs](assets/images/SPVS_Logo.png)
 
 ## SPVS Overview:
 
