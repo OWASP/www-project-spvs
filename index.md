@@ -6,10 +6,10 @@ tags: spvs
 level: 4
 type: standards
 pitch: The Secure Pipeline Verification Standard (SPVS) Project goal is to develop a comprehensive standard that guides organizations in creating and maintaining secure software pipelines, encompassing the entire development and deployment lifecycle.
-headerimage: ./assets/images/SPVS_Logo.png
+headerimage: ./assets/images/SPVS_Banner.png
 
 ---
-![spvs](assets/images/SPVS_Logo.png)
+![spvs](assets/images/SPVS_Banner.png)
 
 ## SPVS Overview:
 
@@ -36,6 +36,6 @@ To develop a comprehensive standard that guides organizations in creating and ma
 
 Our goal is to furnish a suite of controls aimed at significantly reducing the risk of attacks on software development pipelines, thereby enhancing the overall security posture of software delivery processes.
 
-### Resources
+## Resources
 * [GitHub Link](https://github.com/OWASP/www-project-spvs)
 * [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
