@@ -1,17 +1,8 @@
 ### SPVS Information
-* [Incubator Project](#)
-* [Type of Project](#)
-* [Version 0.0.0](#)
-* [Builder](#)
-* [Breaker](#)
+* [GitHub Link](https://github.com/OWASP/www-project-spvs)
 
-### Downloads or Social Links
-* [Download](#)
-* [Meetup](#)
+### Offical Release
+* [Version 0.0.0 (Coming soon)](#)
 
-### Code Repository
-* [repo](#)
-
-### Change Log
-* [changes](#)
-
+### How to Contribute/Support SPVS
+* [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
