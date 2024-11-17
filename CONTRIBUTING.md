@@ -12,13 +12,15 @@ To get started with contributing to any OWASP project, please follow these steps
 
 3. Visit the project's individual page and repository to familiarize yourself with the project goals and objectives.
 
-4. Fork the repository and clone it to your local machine.
+4. Read this projects \www-project-spvs\README.md file
 
-5. Install any necessary dependencies and set up your development environment.
+5. Fork the repository and clone it to your local machine.
 
-6. Make your changes and test them locally to ensure they work as expected.
+6. Install any necessary dependencies and set up your development environment.
 
-7. Submit a pull request with your changes.
+7. Make your changes and test them locally to ensure they work as expected.
+
+8. Submit a pull request with your changes.
 
 ## Pull Request Guidelines
 
