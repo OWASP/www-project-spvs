@@ -1,5 +1,3 @@
-# COMING SOON 2024
-
 ![alt text](assets/images/SPVS_Logo.png)
 ## Project - Secure Pipeline Verification Standard (SPVS)
 ---
