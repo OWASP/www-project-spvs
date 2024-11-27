@@ -1,5 +1,3 @@
-# COMING SOON 2024
-
 ![alt text](assets/images/SPVS_Logo.png)
 ## Project - Secure Pipeline Verification Standard (SPVS)
 ---
@@ -16,7 +14,7 @@ The SPVS is a detailed guide containing a robust set of controls designed for so
 4. Comprehensive Coverage: The guide will encompass a wide range of topics, including secure code management, artifact integrity, automation of security tasks within the CI/CD pipeline, compliance monitoring, and incident response strategies.
 5. Actionable and Dynamic Resource: The primary goal is to provide a dynamic, actionable resource that not only assesses but also significantly improves the security posture of software development pipelines in organizations of varying sizes and complexities.
 
-SPVS will serve as a critical tool for organizations seeking to strengthen their software pipeline security, providing clear, actionable controls and a framework for concontinuous security improvement.
+SPVS will serve as a critical tool for organizations seeking to strengthen their software pipeline security, providing clear, actionable controls and a framework for continuous security improvement.
 
 ---
 
