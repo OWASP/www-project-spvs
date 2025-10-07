@@ -6,7 +6,10 @@
 
 The **Secure Pipeline Verification Standard (SPVS)** is a comprehensive framework that provides a robust set of **security controls** and **best practices** for **software engineers, DevOps/DevSecOps teams, and security professionals.** It is designed to assess, enhance, and standardize the security maturity of software delivery pipelines across all stages — **Plan, Develop, Integrate, Release, and Operate**.
 
-**SPV**S** focuses on managing and mitigating risks associated with **code, artifacts, and operational environments throughout the pipeline lifecycle** — from **inception to ongoing operations.** By embedding security at every phase, SPVS ensures continuous alignment with **compliance standards, artifact integrity,** and **secure delivery practices, fostering a culture of proactive security and operational resilience** within modern DevSecOps ecosystems.
+**SPVS** focuses on managing and mitigating risks associated with **code, artifacts, and operational environments throughout the pipeline lifecycle** — from **inception to ongoing operations.** By embedding security at every phase, SPVS ensures continuous alignment with **compliance standards, artifact integrity,** and **secure delivery practices, fostering a culture of proactive security and operational resilience** within modern DevSecOps ecosystems.
+
+🔐 Why was the SPVS so calm during an incident? -> It had multi-factor resilience.
+☕ Why did the CI job take a coffee break? -> Too many Java exceptions!
 
 ---
 
@@ -206,6 +209,8 @@ Maintain and protect production environments.
 * Implement **continuous monitoring**, **incident response**, and **patch management**.
 * Enforce **access control** and **operational resilience**.
 * Leverage **real-time visibility** and **anomaly detection** to ensure ongoing compliance and reliability.
+
+---
 
 🔍 Why did the SPVS framework start a band? -> It already had great stages!
 

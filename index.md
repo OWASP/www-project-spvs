@@ -15,12 +15,15 @@ headerimage: ./assets/images/SPVS_Banner.png
 
 The **Secure Pipeline Verification Standard (SPVS)** is a comprehensive framework that provides a robust set of **security controls** and **best practices** for **software engineers, DevOps/DevSecOps teams, and security professionals.** It is designed to assess, enhance, and standardize the security maturity of software delivery pipelines across all stages — **Plan, Develop, Integrate, Release, and Operate**.
 
-**SPV**S** focuses on managing and mitigating risks associated with **code, artifacts, and operational environments throughout the pipeline lifecycle** — from **inception to ongoing operations.** By embedding security at every phase, SPVS ensures continuous alignment with **compliance standards, artifact integrity,** and **secure delivery practices, fostering a culture of proactive security and operational resilience** within modern DevSecOps ecosystems.
+**SPVS** focuses on managing and mitigating risks associated with **code, artifacts, and operational environments throughout the pipeline lifecycle** — from **inception to ongoing operations.** By embedding security at every phase, SPVS ensures continuous alignment with **compliance standards, artifact integrity,** and **secure delivery practices, fostering a culture of proactive security and operational resilience** within modern DevSecOps ecosystems.
+
+---
 
 ## Resources
 * [GitHub Link](https://github.com/OWASP/www-project-spvs)
 * [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
 
+---
 
 ### **Summary**
 
@@ -36,12 +39,14 @@ SPVS provides **structured, actionable guidance** for mitigating risks associate
 
 Built around the five core stages — **Plan, Develop, Integrate (CI*)**, **Release (CD*)**, and **Operate** — SPVS ensures that security is **embedded, automated, and continuously validated** at every phase of the software lifecycle. The framework is both **comprehensive and adaptable**, making it effective across diverse **cloud, hybrid, and on-premises environments**, and compatible with varied methodologies such as **Agile, DevOps, and Platform Engineering**.
 
+---
 
 ## **Key Objective**
 
 To establish a **standardized, measurable, and adaptable security framework** that enables organizations to **design, implement, and maintain secure software pipelines** across all stages of the development and deployment lifecycle.
 SPVS ensures continuous **risk management**, **compliance alignment**, and **operational resilience**, fostering a **security-first culture** throughout the software delivery process.
 
+---
 
 ## **Goal**
 
@@ -53,6 +58,8 @@ To provide a **robust suite of controls and best practices** that:
 * **Elevates security maturity** progressively through the SPVS stages.
 
 Ultimately, SPVS empowers organizations to deliver **secure, reliable, and compliant software** — efficiently and at scale.
+
+---
 
 ## **Key Aspects of the SPVS Guide**
 
@@ -98,6 +105,8 @@ Acts as a **living framework** designed for **continuous evolution and measurabl
 * Promotes **automation**, **real-time assessment**, and **data-driven decision-making** for pipeline hardening.
 * Enables organizations of all sizes to **evaluate, benchmark, and elevate** their software pipeline security posture.
 
+---
+
 ## **SPVS Stages**
 
 The **Secure Pipeline Verification Standard (SPVS)** enhances traditional **DevSecOps** and **DevOps** practices by embedding security principles into every phase of the software delivery lifecycle.
@@ -142,8 +151,14 @@ Maintain and protect production environments.
 * Enforce **access control** and **operational resilience**.
 * Leverage **real-time visibility** and **anomaly detection** to ensure ongoing compliance and reliability.
 
+---
+
 🔍 Why did the SPVS framework start a band? -> It already had great stage
+
+---
 
 ## Resources
 * [GitHub Link](https://github.com/OWASP/www-project-spvs)
 * [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
+
+---
