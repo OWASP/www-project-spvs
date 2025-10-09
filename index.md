@@ -19,7 +19,8 @@ The **Secure Pipeline Verification Standard (SPVS)** is a comprehensive framewor
 
 ---
 
-## Resources
+## Useful Links
+* [Release 1.0 (Oct 2025)](https://github.com/OWASP/www-project-spvs/tree/Release-1.0/1.0)
 * [GitHub Link](https://github.com/OWASP/www-project-spvs)
 * [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
 
@@ -154,11 +155,5 @@ Maintain and protect production environments.
 ---
 
 🔍 Why did the SPVS framework start a band? -> It already had great stage
-
----
-
-## Resources
-* [GitHub Link](https://github.com/OWASP/www-project-spvs)
-* [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
 
 ---
