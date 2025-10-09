@@ -224,9 +224,9 @@ Develop, document, and practice incident response procedures for production envi
 | **req_id** | Unique requirement identifier under a given sub-category. Format is V#.#.# for example V1.2.3. This provides traceability across documents and versions. |
 | **req_name** | Short title of the verification requirement. Keep it concise and specific so it is usable in reports and dashboards. |
 | **req_description** | Complete statement of the verification requirement. Write it as an objective condition that can be tested. |
-| **level 1** | Marks whether the requirement applies at SPVS Level 1. Use an X when in scope, otherwise leave blank. |
-| **level 2** | Marks whether the requirement applies at SPVS Level 2. Use an X when in scope, otherwise leave blank. |
-| **level 3** | Marks whether the requirement applies at SPVS Level 3. Use an X when in scope, otherwise leave blank. |
+| **level 1** | Marks whether the requirement applies at SPVS Level 1. |
+| **level 2** | Marks whether the requirement applies at SPVS Level 2. |
+| **level 3** | Marks whether the requirement applies at SPVS Level 3. |
 | **NIST** | One or more NIST SP 800-53 control identifiers that map to the requirement. Use standard identifiers such as AC-2, IA-5, SI-2. Separate multiple values with commas. |
 | **OWASP_CICD_Risk** | One or more OWASP CI/CD Security Top 10 risk identifiers relevant to the requirement. Use the project notation such as CICD-SEC-1. |
 | **cwe_mapping** | One or more CWE identifiers associated with the requirement. Use canonical CWE identifiers such as CWE-287 or CWE-798. |
