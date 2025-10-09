@@ -2,7 +2,7 @@
 * [GitHub Link](https://github.com/OWASP/www-project-spvs)
 
 ### Offical Release
-* [Version 0.1 (Public Feedback Edition)](https://github.com/OWASP/www-project-spvs/blob/main/0.1/OWASP%20SPVS%200.1%20-%20OWASP%20SPVS%200.1-en.csv)
+* [Release 1.0 (Oct 2025)](https://github.com/OWASP/www-project-spvs/tree/Release-1.0/1.0)
 
 ### How to Contribute/Support SPVS
 * [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
