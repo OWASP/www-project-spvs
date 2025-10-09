@@ -15,9 +15,9 @@ The **Secure Pipeline Verification Standard (SPVS)** is a comprehensive framewor
 ---
 
 ## Useful Links
-- [Path to How To Use SPVS - OWASP_SPVS_1.0_How_To_Use_SPVS.md](1.0\OWASP_SPVS_1.0_How_To_Use_SPVS.md)
-- [URL to 1.0 Release - OWASP_SPVS_1.0_-en_Requirements.csv](1.0\OWASP_SPVS_1.0_-en_Requirements.csv)
-- [Path to Categories Overview - OWASP_SPVS_1.0_Categories_Overview.md](1.0\OWASP_SPVS_1.0_Categories_Overview.md)
+- [Path to How To Use SPVS - OWASP_SPVS_1.0_How_To_Use_SPVS.md](1.0/OWASP_SPVS_1.0_How_To_Use_SPVS.md)
+- [URL to 1.0 Release - OWASP_SPVS_1.0_-en_Requirements.csv](1.0/OWASP_SPVS_1.0_-en_Requirements.csv)
+- [Path to Categories Overview - OWASP_SPVS_1.0_Categories_Overview.md](1.0/OWASP_SPVS_1.0_Categories_Overview.md)
 - [Path to How to Contribute - CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
