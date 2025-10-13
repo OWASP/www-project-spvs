@@ -8,8 +8,8 @@ SPVS defines controls for each stage of the software pipeline:
 
 1. **Plan** – Governance, risk management, secure configuration, and foundational policies.  
 2. **Develop** – Secure development practices and code hygiene.  
-3. **Integrate (CI)** – Build system hardening and artifact integrity.  
-4. **Release (CD)** – Deployment and environment security.  
+3. **Integrate** – Build system hardening and artifact integrity.  
+4. **Release** – Deployment and environment security.  
 5. **Operate** – Continuous monitoring, maintenance, and incident management.
 
 Each control in SPVS includes mappings to:
