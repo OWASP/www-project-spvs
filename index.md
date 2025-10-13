@@ -38,7 +38,7 @@ The **Secure Pipeline Verification Standard (SPVS)** is a comprehensive, securit
 
 SPVS provides **structured, actionable guidance** for mitigating risks associated with **code, artifacts, and operational environments**, helping organizations build **secure-by-design pipelines**. It introduces a **multi-tiered maturity model**, enabling teams to start with foundational security controls and progressively advance toward **best-in-class DevSecOps practices**.
 
-Built around the five core stages — **Plan, Develop, Integrate (CI*)**, **Release (CD*)**, and **Operate** — SPVS ensures that security is **embedded, automated, and continuously validated** at every phase of the software lifecycle. The framework is both **comprehensive and adaptable**, making it effective across diverse **cloud, hybrid, and on-premises environments**, and compatible with varied methodologies such as **Agile, DevOps, and Platform Engineering**.
+Built around the five core stages — **Plan, Develop, Integrate**, **Release**, and **Operate** — SPVS ensures that security is **embedded, automated, and continuously validated** at every phase of the software lifecycle. The framework is both **comprehensive and adaptable**, making it effective across diverse **cloud, hybrid, and on-premises environments**, and compatible with varied methodologies such as **Agile, DevOps, and Platform Engineering**.
 
 ---
 
@@ -55,7 +55,7 @@ To provide a **robust suite of controls and best practices** that:
 
 * **Reduces the risk of attacks** and vulnerabilities across software pipelines.
 * **Improves artifact integrity**, build environment protection, and release assurance.
-* **Automates security validation and compliance** within CI/CD processes.
+* **Automates security validation and compliance** within software pipeline processes.
 * **Elevates security maturity** progressively through the SPVS stages.
 
 Ultimately, SPVS empowers organizations to deliver **secure, reliable, and compliant software** — efficiently and at scale.
@@ -88,13 +88,13 @@ Delivers **flexible, environment-agnostic controls** tailored to diverse softwar
 
 * Supports **multi-cloud**, **hybrid**, and **on-premises** architectures.
 * Adaptable to varied methodologies — **Agile, DevOps, DevSecOps, and Platform Engineering**.
-* Ensures **context-aware security integration** across tooling (e.g., GitHub Actions, GitLab CI/CD, Jenkins, Azure DevOps).
+* Ensures **context-aware security integration** across tooling (e.g., GitHub Actions, GitLab software pipeline, Jenkins, Azure DevOps).
 
 ### **4. Comprehensive Pipeline Coverage**
 
 Covers the **end-to-end software lifecycle**, embedding security throughout.
 
-* Focus areas include **secure code management**, **artifact integrity**, **build environment protection**, and **automated validation** within CI/CD.
+* Focus areas include **secure code management**, **artifact integrity**, **build environment protection**, and **automated validation** within software pipeline.
 * Integrates **compliance monitoring**, **change control**, **incident response**, and **operational resilience**.
 * Reinforces **visibility and traceability** across all SPVS stages to ensure accountability and auditability.
 
@@ -128,7 +128,7 @@ Build security into the code from the start.
 * Integrate **automated vulnerability detection** tools during development.
 * Address issues early to reduce remediation costs and risk.
 
-### **3. Integrate (CI*)**
+### **3. Integrate**
 
 Securely integrate new code into the main codebase.
 
@@ -136,7 +136,7 @@ Securely integrate new code into the main codebase.
 * Perform **automated validation**, **artifact integrity checks**, and **environment hardening**.
 * Use **structured, repeatable security tests** and **compliance-aligned scans** to detect vulnerabilities early.
 
-### **4. Release (CD*)**
+### **4. Release**
 
 Ensure production-ready, secure, and compliant deployments.
 

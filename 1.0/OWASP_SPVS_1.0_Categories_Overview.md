@@ -9,7 +9,7 @@ This document outlines the stages and subcategories of the Secure Pipeline Verif
 | Column Name | Description |
 |---|---|
 | **Category_ID** | Unique identifier of the top-level SPVS category. Valid values are V1, V2, V3, V4, V5. See the list above for the corresponding names. |
-| **catagory_name** | Human readable name of the category that pairs with Category_ID. Valid values are Plan, Develop, Integrate (CI*), Release (CD*), Operate. |
+| **catagory_name** | Human readable name of the category that pairs with Category_ID. Valid values are Plan, Develop, Integrate, Release, Operate. |
 | **sub-category_id** | Identifier of the sub-category within the category. Format is V#.## where the first number matches Category_ID. See the lists above for valid values. |
 | **sub-catagory_name** | Human readable name of the sub-category that pairs with sub-category_id. Use the names listed above for each category. |
 | **req_id** | Unique requirement identifier under a given sub-category. Format is V#.#.# for example V1.2.3. This provides traceability across documents and versions. |
@@ -37,8 +37,8 @@ This document outlines the stages and subcategories of the Secure Pipeline Verif
 
 * **V1 / Plan**
 * **V2 / Develop**
-* **V3 / Integrate (CI*)**
-* **V4 / Release (CD*)**
+* **V3 / Integrate**
+* **V4 / Release**
 * **V5 / Operate**
 
 ---
@@ -63,14 +63,14 @@ This document outlines the stages and subcategories of the Secure Pipeline Verif
 * V2.6 3rd Party Library Audit
 * V2.7 Unit Testing
 
-### **Integrate (CI*) (V3)**
+### **Integrate (V3)**
 
 * V3.1 Security of Pipeline Environment
 * V3.2 Credential Hygiene
 * V3.3 Continuous Security Checks
 * V3.4 Integrity of Artifacts
 
-### **Release (CD*) (V4)**
+### **Release (V4)**
 
 * V4.1 Final Security Assessments
 * V4.2 Compliance Checks
@@ -159,7 +159,7 @@ Before code is pushed, each push should pass local unit tests to ensure applicat
 
 ---
 
-## **V3 – Integrate (CI*)**
+## **V3 – Integrate**
 
 > At this stage of the development pipeline, code enters a system where new features are integrated into the main codebase and must pass predefined security checkpoints before moving toward deployment.
 >
@@ -185,7 +185,7 @@ Implement measures to ensure the integrity of build artifacts, such as cryptogra
 
 ---
 
-## **V4 – Release (CD*)**
+## **V4 – Release**
 
 > The Release stage ensures software is production-ready and securely deployed.
 > It includes final security validations, compliance checks, and approvals in staging or pre-production environments.

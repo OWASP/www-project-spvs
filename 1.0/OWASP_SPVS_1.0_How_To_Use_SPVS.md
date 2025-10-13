@@ -2,7 +2,7 @@
 
 ## Overview
 The **OWASP Software Pipeline Verification Standard (SPVS)** is a structured framework for evaluating and improving the security of software delivery pipelines.  
-It is modeled after the **OWASP Application Security Verification Standard (ASVS)** but focuses on the security of build, deployment, and operational automation across CI/CD environments.
+It is modeled after the **OWASP Application Security Verification Standard (ASVS)** but focuses on the security of build, deployment, and operational automation across software pipeline environments.
 
 SPVS defines controls for each stage of the software pipeline:
 
@@ -13,7 +13,7 @@ SPVS defines controls for each stage of the software pipeline:
 5. **Operate** – Continuous monitoring, maintenance, and incident management.
 
 Each control in SPVS includes mappings to:
-- **OWASP CI/CD Top 10** risks  
+- **OWASP software pipeline Top 10** risks  
 - **NIST 800-53** security controls  
 - **CWE** (Common Weakness Enumeration) identifiers  
 
@@ -83,7 +83,7 @@ While SPVS itself is not an automated tool, it can inform automation:
 - Use SPVS requirements to drive **pipeline checks** such as secret scanning, dependency validation, or enforcement of signed artifacts.  
 - Integrate SPVS status tracking into dashboards or compliance reporting tools.
 
-This makes SPVS “live” within your CI/CD workflows.
+This makes SPVS “live” within your software pipeline workflows.
 
 ---
 
