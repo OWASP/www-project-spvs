@@ -1,7 +1,7 @@
 # How to Use OWASP SPVS
 
 ## Overview
-The **OWASP Software Pipeline Verification Standard (SPVS)** is a structured framework for evaluating and improving the security of software delivery pipelines.  
+The **OWASP Secure Pipeline Verification Standard (SPVS)** is a structured framework for evaluating and improving the security of software delivery pipelines.  
 It is modeled after the **OWASP Application Security Verification Standard (ASVS)** but focuses on the security of build, deployment, and operational automation across software pipeline environments.
 
 SPVS defines controls for each stage of the software pipeline:
