@@ -34,6 +34,14 @@ SPVS defines **three verification levels** to represent increasing depth of secu
 Each requirement indicates the **level(s)** where it applies (for example, Level 1 only, or Level 2 and above).  
 You should target the level appropriate to your risk profile and regulatory obligations.
 
+## Example Usage Scenarios
+
+| **Scenario** | **SPVS Application** |
+|---------------|----------------------|
+| Startup adopting GitHub Actions | Apply Plan → Develop → Integrate controls at Level 1. Focus on IAM, secret management, and source control protection. |
+| Mid-sized SaaS with regulated customers | Target Level 2. Enforce signed builds, automated scanning, and reviewed deployments. |
+| Enterprise pursuing audit-ready DevSecOps | Adopt Level 3. Require attestations, reproducible builds, and continuous verification. |
+
 ---
 
 ## How to Apply SPVS
@@ -103,16 +111,6 @@ Document each verification review and update evidence as needed.
 - Use **CWE mappings** to analyze technical weaknesses underlying failed controls.  
 - Reference **ASVS** for application-layer security alignment.  
 - Focus on **evidence and repeatability**; SPVS should demonstrate consistent enforcement, not one-time checks.
-
----
-
-## Example Usage Scenarios
-
-| **Scenario** | **SPVS Application** |
-|---------------|----------------------|
-| Startup adopting GitHub Actions | Apply Plan → Develop → Integrate controls at Level 1. Focus on IAM, secret management, and source control protection. |
-| Mid-sized SaaS with regulated customers | Target Level 2. Enforce signed builds, automated scanning, and reviewed deployments. |
-| Enterprise pursuing audit-ready DevSecOps | Adopt Level 3. Require attestations, reproducible builds, and continuous verification. |
 
 ---
 
