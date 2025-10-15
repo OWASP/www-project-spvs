@@ -16,7 +16,7 @@ Why did the CI job take a coffee break? -> Too many Java exceptions!
 
 ---
 
-## Useful Links
+# Check out SPVS 1.0!
 - [Path to How To Use SPVS - OWASP_SPVS_1.0_How_To_Use_SPVS.md](1.0/OWASP_SPVS_1.0_How_To_Use_SPVS.md)
 - [URL to 1.0 Release - OWASP_SPVS_1.0_-en_Requirements.csv](1.0/OWASP_SPVS_1.0_-en_Requirements.csv)
 - [Path to Categories Overview - OWASP_SPVS_1.0_Categories_Overview.md](1.0/OWASP_SPVS_1.0_Categories_Overview.md)
