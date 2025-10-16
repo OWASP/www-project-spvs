@@ -118,6 +118,6 @@ Document each verification review and update evidence as needed.
 - [OWASP SPVS Project Page](https://owasp.org/www-project-spvs/)  
 - [OWASP SPVS GitHub Repository](https://github.com/OWASP/www-project-spvs/)  
 - [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)  
-- [OWASP CI/CD Top 10](https://owasp.org/www-project-cicd-security/)  
+- [OWASP CI/CD Top 10](https://owasp.org/www-project-top-10-ci-cd-security-risks/)  
 - [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)  
 - [Common Weakness Enumeration (CWE)](https://cwe.mitre.org/)  
