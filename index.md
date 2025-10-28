@@ -12,9 +12,6 @@ headerimage: ./assets/images/SPVS_Banner.png
 ![spvs](assets/images/SPVS_Banner.png)
 
 
-
-Here is the fully unified section titled **SPVS**, consolidating all content under a single heading:
-
 ---
 
 ## **SPVS**
