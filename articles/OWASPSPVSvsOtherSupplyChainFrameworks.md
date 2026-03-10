@@ -1,7 +1,3 @@
-# Beyond Artifact and Risk Frameworks: Comparing SPVS With SLSA, SCVS, S2C2F, SCITT, and NIST C-SCRM
-
-# Comparing Secure Delivery Standards: How SPVS Aligns and Differs from SLSA, S2C2F, SCVS, SCITT, and NIST C-SCRM
-
 # OWASP SPVS vs. Other Supply Chain Frameworks
 
 ## A Crowded Landscape With Different Focuses
