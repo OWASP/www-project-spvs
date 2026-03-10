@@ -16,7 +16,7 @@ SPVS isn't meant to replace the other frameworks. It has a different scope. Here
 
 ## The Existing Frameworks
 
-**SLSA (Supply-chain Levels for Software Artifacts)** Focused on build integrity and provenance. SLSA helps you prove that artifacts were built as expected with cryptographic evidence. It's essential for software producers and does this job well. Its scope is intentionally focused on the build and artifact layer.
+**SLSA (Supply-chain Levels for Software Artifacts)** Focuses on build integrity and provenance. SLSA helps you prove that artifacts were built as expected with cryptographic evidence. It's essential for software producers and does this job well. Its scope is intentionally focused on the build and artifact layer.
 
 **S2C2F (Secure Supply Chain Consumption Framework)** Microsoft's framework for securely consuming open-source dependencies. It covers ingestion, inventory, scanning, and updating of OSS packages. If you're managing OSS at scale, S2C2F provides a solid maturity model for that specific problem.
 
