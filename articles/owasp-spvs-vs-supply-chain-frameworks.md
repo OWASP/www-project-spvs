@@ -1,4 +1,4 @@
-![SPVS-vs-Others](https://github.com/user-attachments/assets/b5037095-1809-4ff8-aa3e-26e464202e02)
+![SPVS-vs-others-articleHeaderImage](https://github.com/user-attachments/assets/053aed6b-56a7-480f-8f3d-d4be62496c71)
 
 # OWASP SPVS vs. Other Supply Chain Frameworks
 
@@ -11,6 +11,8 @@ But each has a specific scope. When I sit down with a DevOps team and ask "show 
 That's why Cameron Walters and I created OWASP SPVS, the Secure Pipeline Verification Standard.
 
 SPVS isn't meant to replace the other frameworks. It has a different scope. Here's how they compare.
+
+![SPVS-vs-others-Detailed](https://github.com/user-attachments/assets/fc6b3b87-3945-4c8f-ae9f-907860d8f36e)
 
 ## The Existing Frameworks
 
