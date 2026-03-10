@@ -1,3 +1,5 @@
+![SPVS-vs-Others](https://github.com/user-attachments/assets/b5037095-1809-4ff8-aa3e-26e464202e02)
+
 # OWASP SPVS vs. Other Supply Chain Frameworks
 
 ## A Crowded Landscape With Different Focuses
