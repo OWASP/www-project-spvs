@@ -1,110 +1,74 @@
 # Contributing Guidelines
-## This is a Work In Progress
-Thank you for your interest in contributing to an OWASP project. We welcome all contributions and appreciate your efforts to improve our projects.
 
-## Getting Started
+Thank you for your interest in contributing to SPVS. We welcome all contributions and appreciate your efforts to improve the standard.
 
-To get started with contributing to any OWASP project, please follow these steps:
+## Contributing to SPVS
 
-1. [Join](http://owasp.org/slack/invite) the [OWASP Slack workspace](https://owasp.slack.com) to connect with the OWASP community and get help with any questions you may have.
+### Types of Contributions
 
-2. Review the [OWASP Projects](https://owasp.org/projects/) page to browse the list of OWASP projects and find a project that aligns with your interests and skills.
+- **New controls:** Proposing a control that does not exist in the current standard
+- **Control edits:** Corrections to existing controls (wording, mappings, level assignment)
+- **Documentation:** README, contributing guide, or other non-control content
 
-3. Visit the project's individual page and repository to familiarize yourself with the project goals and objectives.
+### How to Submit
 
-4. Read this projects \www-project-spvs\README.md file
+1. Fork this repository and create a branch named descriptively (e.g., `add-sbom-verification-control`, `fix-v1.1.3-nist-mapping`).
 
-5. Fork the repository and clone it to your local machine.
+2. Add your proposed control(s) to `1.0/OWASP_SPVS_1.0_-en_Requirements.csv`. Keep the column order and formatting consistent with existing rows. If you're unsure of the category, pick the closest one and note it in your PR.
 
-6. Install any necessary dependencies and set up your development environment.
+3. Open a pull request against the `main` branch. For new controls, your description should address:
+   - What the control verifies
+   - Which pipeline phase it belongs to and why
+   - The threat or risk it addresses (OWASP CICD Top 10 reference preferred)
+   - Suggested level (1 = baseline, 2 = standard, 3 = advanced) with rationale
+   - NIST 800-53, OWASP CICD Risk, and CWE mappings (best effort is fine)
 
-7. Make your changes and test them locally to ensure they work as expected.
+4. If you're proposing something that doesn't fit cleanly into an existing category, say so in the PR. That's useful signal for the maintainers.
 
-8. Submit a pull request with your changes.
+### Numbering Rules
 
-## Pull Request Guidelines
+- New controls must be placed at the end of their sub-category
+- Deleted controls must retain a placeholder row to prevent number reuse
 
-Before submitting a pull request, please make sure:
+### Change Tags
 
-1. Your changes are consistent with the project's goals and objectives.
+Add the appropriate tag before the requirement description when modifying existing controls:
 
-2. Your changes are well-documented and follow the project's coding standards.
+- `[ADDED]` - New requirement (end of sub-category only)
+- `[ADDED, SPLIT FROM x.y.z]` - New requirement split from an existing one
+- `[MODIFIED]` - Requirement description has changed
+- `[MOVED FROM x.y.z]` - Requirement moved to a different sub-category, not modified
+- `[MODIFIED, MOVED FROM x.y.z]` - Requirement modified and moved
+- `[MOVED TO x.y.z]` - Placeholder; requirement moved to another category
+- `[DELETED]` - Placeholder; requirement removed
+- `[DELETED, MERGED TO x.y.z]` - Placeholder; requirement merged into another
+- `[LEVEL L1 > L2]` - Requirement level has changed
 
-3. Your changes do not introduce new bugs or break existing functionality.
+CWE and NIST mapping changes do not require tags.
 
-4. Your changes are accompanied by tests, if applicable.
+### Example: New Control Submission
 
-5. Your pull request includes a clear and concise description of the changes you have made.
+**CSV row being added:**
+```
+V3,Integrate (CI*),V3.4,Integrity of Artifacts,V3.4.3,Verify that a Software Bill of Materials (SBOM) is generated and stored as a signed pipeline artifact on every build,,,X,NIST 800-53: SA-12,CICD-SEC-3,CWE-1104;CWE-345,Use of Unmaintained Third Party Components;Insufficient Verification of Data Authenticity - SBOM integrity
+```
+
+**PR description:**
+
+> **What this verifies:** That every build produces a machine-readable SBOM (e.g., CycloneDX or SPDX format) and that it's cryptographically signed alongside the build artifact.
+>
+> **Why this belongs in SPVS:** SBOM generation is currently implied by V2.6 (dependency auditing) and V3.4 (artifact integrity) but never explicitly required as a pipeline output. Without it, downstream consumers can't verify what's in a release.
+>
+> **Threat:** CICD-SEC-3. If a build-time dependency is compromised, the SBOM gives you the data to scope the blast radius.
+>
+> **Level:** Proposing L3. Most orgs aren't doing signed SBOMs yet. Open to L2 if the community disagrees.
+>
+> **Mappings:** NIST SA-12, CICD-SEC-3, CWE-1104, CWE-345.
+
+---
+
+Questions before you open a PR? Join [#owasp-spvs](https://owasp.slack.com/archives/C0AQW879656) on OWASP Slack.
 
 ## Code of Conduct
 
-We ask that all contributors to OWASP projects abide by our [Code of Conduct](https://owasp.org/www-policy/operational/code-of-conduct). This code outlines our expectations for behavior within the project community and helps us maintain a welcoming and inclusive environment for all contributors.
-
-Thank you for your interest in contributing to an OWASP project. We appreciate your efforts to help us improve and grow our projects.
-
-**This document applies to all those who want to contritubte to this project from 2024 and may change at a future date.**
-
-<!--
-
-## General description
-
-open issue > discuss, if agreed > pull request
-
-
-## Versions
-
-for what versions what kind of changes are allowed
-
-definition of breaking change
-
-
-## Opening issue
-
-expectation from issue
-
-
-## Pull-request
-
-expectation from PR
--->
-
-### Introduction
-
-The current status of the SPVS project is as follows:
-
-> The SPVS project is in a planning stage, still in phase 1 of our roadmap.
-
-
-### How to make changes this project
-
-> Once we have uploaded our inital set of standards you may contribute by opening a issue and we will dsicuss via the issues, if agreed we will need a pull request with changes.
-
-### Standard for changes
-
-#### Keep all current numbers
-
-* New requirements must be placed at the end of sub-category
-* Deleted requirements must keep "placeholder" to avoid some other requirements to be added/moved to that number, examples:
-
-
-#### Use tags to describe the change
-
-The following tags should be added to any modified requirement as appropriate. These tags should all be relative to how the requirement appeared in v4.0.3.
-
-* `[ADDED]` - New requirement (should only be added at the end of a sub-section.)
-* `[ADDED, SPLIT FROM x.y.z]` - New requirement which was previously part of another requirement
-* `[MODIFIED]` - Requirement description has been modified
-* `[MOVED FROM x.y.z]` - Requirement has been moved to a different sub-section but **not** modified. (should only be added at the end of a sub-section.)
-* `[MODIFIED, MOVED FROM x.y.z]` - Requirement description has been modified **and** requirement has been moved to a different sub-section.
-* `[MOVED TO x.y.z]` - Placeholder to keep number, requirement has been moved to another category (but not modified).
-* `[DELETED]` - Placeholder to keep number, requirement has been deleted
-* `[DELETED, MERGED TO x.y.z]` - Placeholder to keep number, requirement has been merged into another requirement, e.g. to solve a duplicate
-* `[LEVEL L1 > L2]` - Requirement's level has changed
-
-CWE and/or NIST mapping changes do not require labels.
-
-Tags must be placed before verification description, example:
-
-```
-| **12.4.2** | [MODIFIED] Verify that files obtained from untrusted sources are scanned by antivirus scanners to prevent upload and serving of known malicious content. | ✓ | ✓ | ✓ | 509 |
-```
+All contributors are expected to abide by the [OWASP Code of Conduct](https://owasp.org/www-policy/operational/code-of-conduct).
