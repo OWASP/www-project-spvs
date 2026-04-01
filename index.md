@@ -27,6 +27,7 @@ By embedding security at every phase and continuously validating controls, SPVS 
 ---
 
 ## Useful Links
+* [Join us on Slack @ #owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)
 * [Release 1.0 (Oct 2025)](https://github.com/OWASP/www-project-spvs/tree/Release-1.0/1.0)
 * [GitHub Link](https://github.com/OWASP/www-project-spvs)
 * [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)

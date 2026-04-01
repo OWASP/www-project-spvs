@@ -13,6 +13,7 @@ Built on a **multi-tiered maturity model**, SPVS allows teams to start with **ba
 By embedding security at every phase and continuously validating controls, SPVS transforms traditional software pipelines into **secure, resilient, and compliant systems**. It provides a **standardized, measurable approach** for organizations to **design, implement, and sustain secure pipelines**, serving as a **critical enabler** of long-term DevSecOps success.
 
 - [SPVS Offical OWASP Web Page](https://owasp.org/www-project-spvs/)
+- [Join us on Slack @ #owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)
 
 Why was the SPVS so calm during an incident? -> It had multi-factor resilience.
 

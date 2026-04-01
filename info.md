@@ -4,6 +4,9 @@
 ### Offical Release
 * [Release 1.0 (Oct 2025)](https://github.com/OWASP/www-project-spvs/tree/Release-1.0/1.0)
 
+### Join us on OWASP Slack
+* [#owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)
+
 ### How to Contribute/Support SPVS
 * [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
 
