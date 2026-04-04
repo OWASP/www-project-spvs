@@ -66,20 +66,20 @@ V3,Integrate,V3.7,Secret Isolation for Agents,V3.7.3,Verify that agent secret ac
 V3,Integrate,V3.7,Secret Isolation for Agents,V3.7.4,Verify that agent secret access is explicitly allowlisted per secret and job scope.
 V3,Integrate,V3.7,Secret Isolation for Agents,V3.7.5,"Verify that secrets are not exposed to agents via prompts, logs, issue comments, pull request (PR) text, or other model context channels."
 V3,Integrate,V3.8,Agent Runtime Isolation,V3.8.1,Verify that AI agent executions occur in isolated runtime environments appropriate to task sensitivity.
-V3,Integrate,V3.8,Agent Runtime Isolation,V3.8,Verify that AI agent execution environments are ephemeral and destroyed after job completion.
-V3,Integrate,V3.8,Agent Runtime Isolation,V3.9,Verify that agent filesystem access is restricted to the designated workspace.
-V3,Integrate,V3.8,Agent Runtime Isolation,V3.10,Verify that agent execution environments are prevented from accessing host mounts and credential directories.
-V3,Integrate,V3.8,Agent Runtime Isolation,V3.11,Verify that AI agents cannot modify their runtime configuration or tool bindings during active execution.
-V3,Integrate,V3.8,Agent Runtime Isolation,V3.12,"Verify that AI agents are technically prevented from creating new agent identities, registering new NHIs (Non-Human Identities), or spawning processes with permission scopes beyond those of the invoking agent during execution."
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.8.2,Verify that AI agent execution environments are ephemeral and destroyed after job completion.
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.8.3,Verify that agent filesystem access is restricted to the designated workspace.
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.8.4,Verify that agent execution environments are prevented from accessing host mounts and credential directories.
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.8.5,Verify that AI agents cannot modify their runtime configuration or tool bindings during active execution.
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.8.6,"Verify that AI agents are technically prevented from creating new agent identities, registering new NHIs (Non-Human Identities), or spawning processes with permission scopes beyond those of the invoking agent during execution."
 V3,Integrate,V3.9,Network and Dependency Control,V3.9.1,Verify that outbound network access from agent execution environments is restricted to an approved allowlist.
 V3,Integrate,V3.9,Network and Dependency Control,V3.9.2,Verify that outbound connections to unapproved endpoints are blocked by network or policy enforcement controls.
 V3,Integrate,V3.9,Network and Dependency Control,V3.9.3,Verify that dependencies retrieved during agent execution are restricted to approved registries or sources.
 V3,Integrate,V3.9,Network and Dependency Control,V3.9.4,Verify that retrieved dependencies are integrity-validated (hash/signature/pinning) prior to use.
 V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.10.1,"Verify that untrusted content sources (issues, PR (pull request) text, comments, external inputs) are classified and handled as untrusted by default."
-V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.10,Verify that untrusted content is sanitized prior to inclusion in agent prompt context.
-V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.11,"Verify that model-generated text output and agent-provided instructions are treated as untrusted and subject to deterministic validation before being used to invoke tool calls, execute commands, or trigger downstream pipeline actions."
-V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.12,Verify that prompt injection detection controls generate alerts when known or suspected injection patterns are identified in untrusted input sources prior to prompt inclusion.
-V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.13,Verify that agent prompt context size and token consumption are bounded by enforceable limits to prevent context overflow and token-stuffing attacks that may cause model behavioral degradation or safety control bypass.
+V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.10.2,Verify that untrusted content is sanitized prior to inclusion in agent prompt context.
+V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.10.3,"Verify that model-generated text output and agent-provided instructions are treated as untrusted and subject to deterministic validation before being used to invoke tool calls, execute commands, or trigger downstream pipeline actions."
+V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.10.4,Verify that prompt injection detection controls generate alerts when known or suspected injection patterns are identified in untrusted input sources prior to prompt inclusion.
+V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.10.5,Verify that agent prompt context size and token consumption are bounded by enforceable limits to prevent context overflow and token-stuffing attacks that may cause model behavioral degradation or safety control bypass.
 -,-,-,-,-,-
 V4,Release,V4.1,Final Security Assessments,V4.1.1,"Verify that AI model behavioral regression tests are executed against documented behavioral baselines prior to production promotion following model version, configuration, or system prompt changes."
 V4,Release,V4.2,AIBOM Generation and Validation,V4.2.1,Verify that an AIBOM (AI Bill of Materials) is generated for each pipeline-integrated AI system/agent prior to production release and stored as a release artifact.
