@@ -5,12 +5,16 @@ Contributors who meet these criteria and want a more active role in shaping the 
 
 ## What Team Membership Means
 
-Team members have a direct role in the direction of SPVS. This includes:
+Team members have a direct role in the direction of SPVS. 
+
+This includes:
 
 - Voting on proposed controls and standard changes
 - Reviewing and approving pull requests
 - Participating in roadmap and release decisions
 - Representing SPVS in community and OWASP contexts
+- Attending the weekly team meeting where we discuss controls, project direction,
+  and next steps for the standard
 
 Membership is distinct from contributing. You can contribute without being a team member, but team members are expected to do both.
 
