@@ -28,8 +28,8 @@ By embedding security at every phase and continuously validating controls, SPVS 
 
 ## Useful Links
 * [Join us on Slack @ #owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)
-* [Release 1.5 - AI Security - Community Feedback](/www-project-spvs/1.5/OWASP_SPVS_1.5-AI_-en_Requirements.csv)
-* [Release 1.0 (Oct 2025)](/www-project-spvs/1.5/OWASP_SPVS_1.0_-en_Requirements.csv)
+* [Release 1.5 - AI Security - Community Feedback](https://github.com/OWASP/www-project-spvs)
+* [Release 1.0 (Oct 2025)](https://github.com/OWASP/www-project-spvs)
 * [GitHub Link](https://github.com/OWASP/www-project-spvs)
 * [How to Contribute](/CONTRIBUTING.md)
 * [How to Join the SPVS Team](/JOINING_THE_TEAM.md)
