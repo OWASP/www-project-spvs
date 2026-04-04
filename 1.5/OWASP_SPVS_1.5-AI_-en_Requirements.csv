@@ -1,0 +1,138 @@
+category_id,category_name,sub-category_id,sub-category_name,req_id,req_description
+V1,Plan,V1.1,Security Requirements and Risk Assessment,V1.1.1,"Verify that a documented exception process exists for AI assets or pipeline integrations that cannot meet standard governance requirements, including required compensating controls, time-bounded approval, and mandatory review cadence."
+V1,Plan,V1.1,Security Requirements and Risk Assessment,V1.1.2,"Verify that risk acceptance decisions for AI assets are documented with business justification, risk owner sign-off, and a defined expiration date requiring re-evaluation."
+V1,Plan,V1.2,Developer Tool Operation,V1.2.1,"Verify that a policy governs which AI coding assistants and AI-powered development tools are approved for use, and that approved tools have documented data handling practices including code transmission scope, training data use restrictions, and retention limitations."
+V1,Plan,V1.3,NHI (Non-Human Identity) Governance for AI Agents,V1.3.1,"Verify that all AI agents operating within the SDLC (Software Development Life Cycle) are registered as NHIs (Non-Human Identities) with documented owner, purpose, and approved scope."
+V1,Plan,V1.3,NHI (Non-Human Identity) Governance for AI Agents,V1.3.2,Verify that AI agent NHIs (Non-Human Identities) have defined onboarding and offboarding procedures.
+V1,Plan,V1.3,NHI (Non-Human Identity) Governance for AI Agents,V1.3.3,Verify that AI agent NHIs (Non-Human Identities) have automated expiration or disablement controls.
+V1,Plan,V1.3,NHI (Non-Human Identity) Governance for AI Agents,V1.3.4,Verify that a policy defines maximum allowable permission scopes for AI agent NHIs (Non-Human Identities).
+V1,Plan,V1.3,NHI (Non-Human Identity) Governance for AI Agents,V1.3.5,Verify that AI agent NHI (Non-Human Identity) permissions are reviewed on a documented cadence.
+V1,Plan,V1.3,NHI (Non-Human Identity) Governance for AI Agents,V1.3.6,Verify that inactive AI agent NHIs (Non-Human Identities) are automatically disabled after a defined inactivity threshold.
+V1,Plan,V1.4,AI Asset Discovery and Inventory Governance,V1.4.1,Verify that a documented discovery process exists to identify unauthorized or ungoverned AI tooling within the SDLC (Software Development Life Cycle) and pipeline environment.
+V1,Plan,V1.4,AI Asset Discovery and Inventory Governance,V1.4.2,Verify that AI tools and agent frameworks are recorded in an AI asset inventory prior to production pipeline use.
+V1,Plan,V1.4,AI Asset Discovery and Inventory Governance,V1.4.3,Verify that model integrations and external model endpoints are recorded in an AI asset inventory prior to production pipeline use.
+V1,Plan,V1.4,AI Asset Discovery and Inventory Governance,V1.4.4,Verify that MCP (Model Context Protocol) and tool servers are recorded in an AI asset inventory prior to production pipeline use.
+V1,Plan,V1.4,AI Asset Discovery and Inventory Governance,V1.4.5,Verify that retrieval sources used by pipeline-integrated agents are recorded in an AI asset inventory prior to production pipeline use.
+V1,Plan,V1.4,AI Asset Discovery and Inventory Governance,V1.4.6,Verify that discovered unapproved AI assets are prevented from production pipeline integration until governance review is completed.
+V1,Plan,V1.4,AI Asset Discovery and Inventory Governance,V1.4.7,"Verify that AI asset inventory entries include ownership, risk classification, approved usage scope, and data sensitivity impact."
+V1,Plan,V1.5,AIBOM (AI Bill of Materials) Governance,V1.5.1,"Verify that an AIBOM (AI Bill of Materials) policy defines required scope for models, datasets, prompts, agent frameworks/SDKs (Software Development Kits), tool servers, retrieval sources, and external endpoints."
+V1,Plan,V1.5,AIBOM (AI Bill of Materials) Governance,V1.5.2,Verify that an AIBOM (AI Bill of Materials) policy defines approved schemas/formats and required machine-readable output.
+V1,Plan,V1.5,AIBOM (AI Bill of Materials) Governance,V1.5.3,Verify that an AIBOM (AI Bill of Materials) policy defines mandatory fields and completeness requirements.
+V1,Plan,V1.5,AIBOM (AI Bill of Materials) Governance,V1.5.4,Verify that an AIBOM (AI Bill of Materials) policy defines signing or integrity-protection requirements.
+V1,Plan,V1.5,AIBOM (AI Bill of Materials) Governance,V1.5.5,Verify that an AIBOM (AI Bill of Materials) policy defines retention and access control requirements.
+V1,Plan,V1.5,AIBOM (AI Bill of Materials) Governance,V1.5.6,Verify that each pipeline-integrated AI system/agent has an assigned AIBOM (AI Bill of Materials) owner accountable for accuracy and updates.
+V1,Plan,V1.5,AIBOM (AI Bill of Materials) Governance,V1.5.7,"Verify that documented triggers require AIBOM (AI Bill of Materials) regeneration upon model, dataset, prompt, retrieval source, tool server, framework, or endpoint changes."
+V1,Plan,V1.5,AIBOM (AI Bill of Materials) Governance,V1.5.8,Verify that AIBOM (AI Bill of Materials) depth requirements are tiered by AI system criticality classification.
+-,-,-,-,-,-
+V2,Develop,V2.1,Credential Hygiene,V2.1.1,"Verify that system prompts authored during development are reviewed for embedded secrets, credentials, API keys, and sensitive organizational data prior to being committed to version control."
+V2,Develop,V2.2,AI-Assisted Secure Development Controls,V2.2.1,Verify that AI-generated changes cannot bypass mandatory peer review and branch protection controls.
+V2,Develop,V2.2,AI-Assisted Secure Development Controls,V2.2.2,Verify that AI-generated source code is subject to automated security analysis prior to merge.
+V2,Develop,V2.2,AI-Assisted Secure Development Controls,V2.2.3,Verify that AI-generated source code dependencies are subject to automated vulnerability and license analysis prior to merge.
+V2,Develop,V2.2,AI-Assisted Secure Development Controls,V2.2.4,Verify that AI-generated changes are subject to automated secret and credential detection prior to merge.
+V2,Develop,V2.2,AI-Assisted Secure Development Controls,V2.2.5,Verify that AI-generated infrastructure-as-code is subject to automated misconfiguration analysis prior to merge or deployment.
+V2,Develop,V2.2,AI-Assisted Secure Development Controls,V2.2.6,Verify that AI-generated pipeline definition changes are subject to automated policy validation prior to merge.
+V2,Develop,V2.2,AI-Assisted Secure Development Controls,V2.2.7,Verify that AI-generated executable scripts or commands are not executed automatically without deterministic validation controls.
+-,-,-,-,-,-
+V3,Integrate,V3.1,Security of Pipeline Environment,V3.1.1,"Verify that AI agent execution environments enforce resource consumption limits including maximum CPU, memory, wall-clock execution time, and external API call quotas per invocation."
+V3,Integrate,V3.2,Deterministic Tool Authorization,V3.2.1,Verify that model-generated text output or agent-provided instructions cannot directly invoke privileged actions without deterministic policy enforcement.
+V3,Integrate,V3.2,Deterministic Tool Authorization,V3.2.2,Verify that agent tool invocation is restricted to an explicit allowlist.
+V3,Integrate,V3.2,Deterministic Tool Authorization,V3.2.3,Verify that privileged tools require separate authorization gates beyond model output.
+V3,Integrate,V3.2,Deterministic Tool Authorization,V3.2.4,Verify that agent tool invocations are logged with sufficient detail for audit and investigation.
+V3,Integrate,V3.3,Multi-Agent Delegation Controls,V3.3.1,Verify that trust relationships between orchestrator agents and sub-agents are explicitly defined in policy and are not implicitly inherited.
+V3,Integrate,V3.3,Multi-Agent Delegation Controls,V3.3.2,Verify that sub-agents are technically prevented from operating with permissions exceeding those explicitly delegated at invocation.
+V3,Integrate,V3.3,Multi-Agent Delegation Controls,V3.3.3,Verify that multi-agent workflows cannot traverse repository or environment trust boundaries without explicit approval at each boundary crossing.
+V3,Integrate,V3.3,Multi-Agent Delegation Controls,V3.3.4,Verify that the blast radius of an agent chain is bounded such that compromise of one agent cannot grant full orchestrator permission scope.
+V3,Integrate,V3.3,Multi-Agent Delegation Controls,V3.3.5,Verify that prompt injection controls applied to external inputs are equally applied to inputs received from other agents.
+V3,Integrate,V3.4,Retrieval Data Governance,V3.4.1,Verify that retrieval data sources used by pipeline-integrated agents are inventoried and ownership-assigned prior to use.
+V3,Integrate,V3.4,Retrieval Data Governance,V3.4.2,Verify that retrieval data sources are classified and subject to access control review prior to use.
+V3,Integrate,V3.4,Retrieval Data Governance,V3.4.3,Verify that retrieval sources are restricted to an explicitly approved allowlist enforced at the access control layer.
+V3,Integrate,V3.4,Retrieval Data Governance,V3.4.4,Verify that retrieved content is treated as untrusted input and is subject to injection controls prior to use.
+V3,Integrate,V3.4,Retrieval Data Governance,V3.4.5,Verify that retrieval queries and returned content are captured in execution provenance sufficient for forensic reconstruction.
+V3,Integrate,V3.5,MCP and Tool Server Security,V3.5.1,Verify that MCP (Model Context Protocol) and tool servers accessible by pipeline-integrated agents are inventoried and ownership-assigned prior to use.
+V3,Integrate,V3.5,MCP and Tool Server Security,V3.5.2,Verify that MCP (Model Context Protocol) and tool server endpoints are restricted to an explicitly approved allowlist.
+V3,Integrate,V3.5,MCP and Tool Server Security,V3.5.3,Verify that MCP (Model Context Protocol) and tool server connections are authenticated and unauthenticated servers are blocked.
+V3,Integrate,V3.5,MCP and Tool Server Security,V3.5.4,Verify that tool definitions and capability manifests provided by MCP (Model Context Protocol) and tool servers are integrity-checked prior to use.
+V3,Integrate,V3.5,MCP and Tool Server Security,V3.5.5,Verify that runtime substitution of MCP (Model Context Protocol) and tool definitions is detected and blocked.
+V3,Integrate,V3.5,MCP and Tool Server Security,V3.5.6,Verify that MCP (Model Context Protocol) and tool invocations are logged with sufficient detail to reconstruct request and response for forensic purposes.
+V3,Integrate,V3.6,Agent Identity Enforcement,V3.6.1,Verify that AI agents authenticate using federated workload identity mechanisms for pipeline execution.
+V3,Integrate,V3.6,Agent Identity Enforcement,V3.6.2,Verify that long-lived static credentials such as PATs (Personal Access Tokens) and API keys (Application Programming Interface keys) are prohibited for AI agent pipeline execution.
+V3,Integrate,V3.6,Agent Identity Enforcement,V3.6.3,Verify that AI agent credentials enforce a maximum TTL (time-to-live) consistent with policy.
+V3,Integrate,V3.6,Agent Identity Enforcement,V3.6.4,Verify that AI agent credentials are restricted to an intended audience and cannot be used across unrelated services.
+V3,Integrate,V3.6,Agent Identity Enforcement,V3.6.5,Verify that AI agent credentials are bound to the pipeline execution context and are non-reusable across separate invocations.
+V3,Integrate,V3.6,Agent Identity Enforcement,V3.6.6,Verify that AI agent credential issuance events are logged and auditable.
+V3,Integrate,V3.7,Secret Isolation for Agents,V3.7.1,Verify that AI agents retrieve secrets only from a dedicated NHI (Non-Human Identity) secret store.
+V3,Integrate,V3.7,Secret Isolation for Agents,V3.7.2,Verify that AI agents are technically prevented from accessing human user secret namespaces.
+V3,Integrate,V3.7,Secret Isolation for Agents,V3.7.3,Verify that agent secret access is denied by default.
+V3,Integrate,V3.7,Secret Isolation for Agents,V3.7.4,Verify that agent secret access is explicitly allowlisted per secret and job scope.
+V3,Integrate,V3.7,Secret Isolation for Agents,V3.7.5,"Verify that secrets are not exposed to agents via prompts, logs, issue comments, pull request (PR) text, or other model context channels."
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.8.1,Verify that AI agent executions occur in isolated runtime environments appropriate to task sensitivity.
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.8,Verify that AI agent execution environments are ephemeral and destroyed after job completion.
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.9,Verify that agent filesystem access is restricted to the designated workspace.
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.10,Verify that agent execution environments are prevented from accessing host mounts and credential directories.
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.11,Verify that AI agents cannot modify their runtime configuration or tool bindings during active execution.
+V3,Integrate,V3.8,Agent Runtime Isolation,V3.12,"Verify that AI agents are technically prevented from creating new agent identities, registering new NHIs (Non-Human Identities), or spawning processes with permission scopes beyond those of the invoking agent during execution."
+V3,Integrate,V3.9,Network and Dependency Control,V3.9.1,Verify that outbound network access from agent execution environments is restricted to an approved allowlist.
+V3,Integrate,V3.9,Network and Dependency Control,V3.9.2,Verify that outbound connections to unapproved endpoints are blocked by network or policy enforcement controls.
+V3,Integrate,V3.9,Network and Dependency Control,V3.9.3,Verify that dependencies retrieved during agent execution are restricted to approved registries or sources.
+V3,Integrate,V3.9,Network and Dependency Control,V3.9.4,Verify that retrieved dependencies are integrity-validated (hash/signature/pinning) prior to use.
+V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.10.1,"Verify that untrusted content sources (issues, PR (pull request) text, comments, external inputs) are classified and handled as untrusted by default."
+V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.10,Verify that untrusted content is sanitized prior to inclusion in agent prompt context.
+V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.11,"Verify that model-generated text output and agent-provided instructions are treated as untrusted and subject to deterministic validation before being used to invoke tool calls, execute commands, or trigger downstream pipeline actions."
+V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.12,Verify that prompt injection detection controls generate alerts when known or suspected injection patterns are identified in untrusted input sources prior to prompt inclusion.
+V3,Integrate,V3.10,Prompt Input Classification and Sanitization,V3.13,Verify that agent prompt context size and token consumption are bounded by enforceable limits to prevent context overflow and token-stuffing attacks that may cause model behavioral degradation or safety control bypass.
+-,-,-,-,-,-
+V4,Release,V4.1,Final Security Assessments,V4.1.1,"Verify that AI model behavioral regression tests are executed against documented behavioral baselines prior to production promotion following model version, configuration, or system prompt changes."
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.1,Verify that an AIBOM (AI Bill of Materials) is generated for each pipeline-integrated AI system/agent prior to production release and stored as a release artifact.
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.2,"Verify that AIBOM (AI Bill of Materials) generation is automated such that relevant changes in models, datasets, prompts, retrieval sources, tool servers, frameworks, or endpoints produce an updated AIBOM (AI Bill of Materials) in the same CI/CD (continuous integration/continuous delivery) workflow."
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.3,Verify that the AIBOM (AI Bill of Materials) conforms to an approved machine-readable schema/format and non-conformant AIBOMs are rejected.
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.4,Verify that release is blocked when required AIBOM (AI Bill of Materials) fields are missing according to the documented completeness policy.
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.5,"Verify that the AIBOM (AI Bill of Materials) includes model identifiers, versions, provenance/lineage, supplier/provider details, and integrity metadata for each model component."
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.6,"Verify that the AIBOM (AI Bill of Materials) includes dataset and retrieval-source identifiers, provenance, licensing/usage constraints, and update cadence where applicable."
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.7,Verify that the AIBOM (AI Bill of Materials) includes system prompt identifiers/versions and prompt configuration artifact references.
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.8,"Verify that the AIBOM (AI Bill of Materials) includes agent frameworks, AI SDKs (Software Development Kits), client libraries, and toolchain dependency components."
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.9,"Verify that the AIBOM (AI Bill of Materials) includes external endpoints used by agents, including model APIs (application programming interfaces), retrieval stores, and MCP (Model Context Protocol) and tool servers, with allowlist status recorded."
+V4,Release,V4.2,AIBOM Generation and Validation,V4.2.10,Verify that the AIBOM (AI Bill of Materials) is integrity-protected (signed or equivalent) and signature/integrity validation occurs as part of the release gate.
+V4,Release,V4.3,Secure Deployment Practices,V4.3.1,Verify that changes to pipeline-integrated AI agents are subject to a staged rollout or canary deployment process before full production promotion.
+V4,Release,V4.3,Secure Deployment Practices,V4.3.2,"Verify that changes to model fine-tuning, quantization format, or other derived model artifacts are treated as model version changes subject to review and approval controls."
+V4,Release,V4.4,Agentic Release Assurance and Change Control,V4.4.1,Verify that AI agent modifications to pipeline definition files require elevated approval gates beyond standard review.
+V4,Release,V4.4,Agentic Release Assurance and Change Control,V4.4.2,"Verify that changes to agent permissions, capability allowlists, or tool integrations require designated security owner approval."
+V4,Release,V4.4,Agentic Release Assurance and Change Control,V4.4.3,"Verify that AI agents cannot approve, merge, or alter the protection rules governing review of their own outputs."
+V4,Release,V4.4,Agentic Release Assurance and Change Control,V4.4.4,Verify that AI agents cannot trigger production deployments without an explicit human-authorized approval gate.
+V4,Release,V4.5,Model Supply Chain Integrity,V4.5.1,Verify that AI models and agent frameworks used in pipeline execution are sourced exclusively from approved registries with documented provenance.
+V4,Release,V4.5,Model Supply Chain Integrity,V4.5.2,Verify that model references are pinned by cryptographic digest (or equivalent) and unpinned references are blocked.
+V4,Release,V4.5,Model Supply Chain Integrity,V4.5.3,Verify that externally hosted model endpoints are subject to documented risk assessment and explicit allowlisting prior to use.
+V4,Release,V4.6,Model Change Control,V4.6.1,Verify that changes to model version are treated as pipeline changes subject to review and approval controls.
+V4,Release,V4.6,Model Change Control,V4.6.2,Verify that changes to model configuration are treated as pipeline changes subject to review and approval controls.
+V4,Release,V4.6,Model Change Control,V4.6.3,Verify that changes to agent framework/SDK (Software Development Kit) versions are treated as pipeline changes subject to review and approval controls.
+V4,Release,V4.7,System Prompt Integrity and Governance,V4.7.1,Verify that system prompts used by pipeline-integrated agents are version-controlled and subject to peer review and change approval.
+V4,Release,V4.7,System Prompt Integrity and Governance,V4.7.2,Verify that system prompt integrity is validated at agent initialization and execution is blocked on deviation from approved configuration.
+V4,Release,V4.7,System Prompt Integrity and Governance,V4.7.3,"Verify that system prompts do not contain embedded secrets, credentials, or sensitive organizational data."
+V4,Release,V4.7,System Prompt Integrity and Governance,V4.7.4,Verify that the active system prompt version is captured in provenance records for each agent execution.
+V4,Release,V4.8,Adversarial Testing and AI Red Teaming,V4.8.1,"Verify that pipeline-integrated agents are tested for prompt injection, jailbreak attempts, and sensitive data extraction prior to production deployment."
+V4,Release,V4.8,Adversarial Testing and AI Red Teaming,V4.8.2,Verify that adversarial testing is performed on a documented cadence and tracked to remediation with defined SLAs (service-level agreements).
+V4,Release,V4.8,Adversarial Testing and AI Red Teaming,V4.8.3,"Verify that adversarial testing covers non-text inputs where agents accept files, images, or structured data."
+V4,Release,V4.8,Adversarial Testing and AI Red Teaming,V4.8.4,"Verify that adversarial testing results inform updates to prompt controls, tool allowlists, and system prompt hardening prior to promotion to production."
+-,-,-,-,-,-
+V5,Operate,V5.1,Detection & Monitoring,V5.1.1,"Verify that prompt injection detection events are logged with full context including the input source, detected pattern or classification result, sanitization or blocking outcome, and the handling decision with rationale."
+V5,Operate,V5.2,Incident Response & Recovery,V5.2.1,"Verify that post-incident reviews for AI agent compromise events include evaluation of whether prompt controls, tool allowlists, system prompts, AIBOM entries, and detection thresholds require updates, and that identified gaps are tracked to remediation."
+V5,Operate,V5.3,Agent Observability and Logging,V5.3.1,"Verify that agent actions are logged with identity context, permission scope, tool usage, and outcome."
+V5,Operate,V5.3,Agent Observability and Logging,V5.3.2,Verify that secret access attempts by agents are logged.
+V5,Operate,V5.3,Agent Observability and Logging,V5.3.3,Verify that outbound network destinations contacted by agent environments are logged.
+V5,Operate,V5.3,Agent Observability and Logging,V5.3.4,Verify that agent activity logs are stored in tamper-evident or append-only systems with controlled access.
+V5,Operate,V5.3,Agent Observability and Logging,V5.3.5,"Verify that inter-agent communications including delegated instructions, sub-agent invocations, and inter-agent responses are logged as distinct events with sufficient context to reconstruct the full delegation chain."
+V5,Operate,V5.4,Blast Radius and Runtime Safeguards,V5.4.1,Verify that agents are prevented from performing irreversible high-impact operations without explicit out-of-band human approval.
+V5,Operate,V5.4,Blast Radius and Runtime Safeguards,V5.4.2,Verify that execution rate limits and action quotas are enforced per agent identity to prevent runaway automation.
+V5,Operate,V5.4,Blast Radius and Runtime Safeguards,V5.4.3,Verify that outbound data volume from agent execution environments is monitored and threshold violations generate alerts.
+V5,Operate,V5.4,Blast Radius and Runtime Safeguards,V5.4.4,Verify that the maximum permission scope achievable by any agent or agent chain is enforced and cannot be expanded through agent-initiated requests.
+V5,Operate,V5.4,Blast Radius and Runtime Safeguards,V5.4.5,Verify that agent credential usage is continuously reconciled against logged task scope and deviations generate alerts.
+V5,Operate,V5.4,Blast Radius and Runtime Safeguards,V5.4.6,Verify that prompt inputs and outputs are logged with data classification controls applied to prevent sensitive data from being written to insecure log targets.
+V5,Operate,V5.4,Blast Radius and Runtime Safeguards,V5.4.7,Verify that data classified as sensitive is technically excluded from agent context windows when not required for the assigned task and cannot appear in outputs transmitted to external endpoints.
+V5,Operate,V5.4,Blast Radius and Runtime Safeguards,V5.4.8,"Verify that runtime behavioral monitoring detects anomalous agent activity including unexpected tool invocation sequences, unusual data access patterns, and execution timing anomalies, and that detected anomalies generate alerts."
+V5,Operate,V5.5,AIBOM Drift and Runtime Reconciliation,V5.5.1,"Verify that the deployed AI components (model version, prompt version, retrieval sources, tool servers, frameworks, endpoints) are reconciled against the approved AIBOM (AI Bill of Materials) and drift generates alerts."
+V5,Operate,V5.5,AIBOM Drift and Runtime Reconciliation,V5.5.2,"Verify that AIBOM (AI Bill of Materials) records are retained and queryable for audits and forensics, including historical versions aligned to releases and deployments."
+V5,Operate,V5.5,AIBOM Drift and Runtime Reconciliation,V5.5.3,"Verify that AIBOM (AI Bill of Materials) components including models, agent frameworks, SDKs (Software Development Kits), and tool servers are continuously monitored against vulnerability feeds and that identified vulnerabilities trigger remediation workflows or block execution depending on severity classification."
+V5,Operate,V5.6,Incident Response for Agent Compromise,V5.6.1,Verify that incident response procedures include playbooks for AI agent compromise and prompt injection scenarios.
+V5,Operate,V5.6,Incident Response for Agent Compromise,V5.6.2,Verify that response procedures can suspend agent identities and rotate associated credentials without requiring full pipeline shutdown.
+V5,Operate,V5.6,Incident Response for Agent Compromise,V5.6.3,"Verify that forensic procedures preserve sufficient evidence of agent activity (inputs, tool calls, accessed data classes, outputs, downstream effects) with data classification controls."
+V5,Operate,V5.6,Incident Response for Agent Compromise,V5.6.4,Verify that agent compromise playbooks are exercised on a documented cadence and that gaps identified during exercises are tracked to remediation.
+-,-,-,-,-,-
