@@ -43,7 +43,7 @@ These controls are not the final word. They're the opening position.
 
 # Check out SPVS 1.5!
 
-* [SPVS 1.5 AI Controls](OWASP_SPVS_1.5_-en_Requirements.csv)
+* [SPVS 1.5 AI Controls](OWASP_SPVS_1.5-AI_-en_Requirements.csv)
 * [SPVS 1.0 Controls for Reference](OWASP_SPVS_1.0_-en_Requirements.csv)
 * [How to Contribute to SPVS](../CONTRIBUTING.md)
 * [JOINING_THE_TEAM.md](../JOINING_THE_TEAM.md)
@@ -52,7 +52,7 @@ These controls are not the final word. They're the opening position.
 
 # **SPVS 1.5 Release Notes**
 
-* **[AI-Focused Controls Released for Community Feedback:](OWASP_SPVS_1.5_-en_Requirements.csv)**
+* **[AI-Focused Controls Released for Community Feedback:](OWASP_SPVS_1.5-AI_-en_Requirements.csv)**
   SPVS 1.5 introduces controls across all five pipeline phases covering AI agent
   governance, agentic runtime security, model supply chain integrity, prompt security,
   and AI-specific incident response. These are community feedback controls. Review
