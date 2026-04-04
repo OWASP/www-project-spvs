@@ -31,6 +31,7 @@ By embedding security at every phase and continuously validating controls, SPVS 
 * [Release 1.0 (Oct 2025)](https://github.com/OWASP/www-project-spvs/tree/Release-1.0/1.0)
 * [GitHub Link](https://github.com/OWASP/www-project-spvs)
 * [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
+* [How to Join the SPVS Team](https://github.com/OWASP/www-project-spvs/blob/main/JOINING_THE_TEAM.md)
 
 ---
 
@@ -142,3 +143,9 @@ Maintain and protect production environments.
 🔍 Why did the SPVS framework start a band? -> It already had great stage
 
 ---
+## Code of Conduct
+
+We ask that all contributors to OWASP projects abide by our [Code of Conduct](https://owasp.org/www-policy/operational/code-of-conduct).
+This code outlines our expectations for behavior within the project community and helps us maintain a welcoming and inclusive environment for all contributors.
+
+Thank you for your interest in contributing to an OWASP project. We appreciate your efforts to help us improve and grow our projects.

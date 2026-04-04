@@ -26,6 +26,7 @@ Why did the CI job take a coffee break? -> Too many Java exceptions!
 - [Check out 1.0 Controls/Requirements](1.0/OWASP_SPVS_1.0_-en_Requirements.csv)
 - [Check out Legend and Columns Overview](1.0/OWASP_SPVS_1.0_Categories_Overview.md)
 - [How to Contribute to the SPVS](CONTRIBUTING.md)
+- [How to Join the SPVS Team](https://github.com/OWASP/www-project-spvs/blob/main/JOINING_THE_TEAM.md)
 
 ---
 
@@ -213,3 +214,9 @@ Maintain and protect production environments.
 Why did the SPVS framework start a band? -> It already had great stages!
 
 ---
+## Code of Conduct
+
+We ask that all contributors to OWASP projects abide by our [Code of Conduct](https://owasp.org/www-policy/operational/code-of-conduct).
+This code outlines our expectations for behavior within the project community and helps us maintain a welcoming and inclusive environment for all contributors.
+
+Thank you for your interest in contributing to an OWASP project. We appreciate your efforts to help us improve and grow our projects.
