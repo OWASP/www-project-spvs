@@ -1,4 +1,3 @@
-```markdown
 # 1.5 RELEASE
 # Release Announcement: SPVS 1.5 — AI Pipeline Security (Community Feedback Edition)
 
@@ -177,4 +176,3 @@ and helps us maintain a welcoming and inclusive environment for all contributors
 
 Thank you for your interest in contributing to an OWASP project. We appreciate
 your efforts to help us improve and grow our projects.
-```
