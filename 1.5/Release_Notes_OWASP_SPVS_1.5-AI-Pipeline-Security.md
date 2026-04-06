@@ -41,6 +41,8 @@ that arrives too late to influence how these systems get built.
 
 These controls are not the final word. They're the opening position.
 
+SPVS 1.5 includes 132 controls across 31 sub-categories.
+
 # Check out SPVS 1.5!
 
 * [SPVS 1.5 AI Controls](OWASP_SPVS_1.5-AI_-en_Requirements.csv)
@@ -63,9 +65,9 @@ These controls are not the final word. They're the opening position.
   agent identities. If your agent has permissions, it needs governance.
 
 * **AIBOM (AI Bill of Materials) Governance:**
-  V1.5 and V4.2 introduce end-to-end AIBOM requirements covering policy, generation,
-  validation, signing, and drift detection. Know what's in your AI system the same
-  way you know what's in your software supply chain.
+  V1.5 introduces AIBOM governance requirements covering policy, scope, approved schemas,
+  completeness requirements, signing, retention, ownership accountability, regeneration triggers,
+  and criticality-based tiering.
 
 * **AI Asset Discovery and Inventory:**
   V1.4 requires discovery processes for ungoverned AI tooling, mandatory inventory
@@ -103,6 +105,12 @@ These controls are not the final word. They're the opening position.
   V4.5 requires approved registry sourcing, cryptographic digest pinning for model
   references, and explicit risk assessment for externally hosted model endpoints.
 
+* **AIBOM Generation and Validation:**
+  V4.2 requires automated AIBOM generation as a release artifact, schema conformance validation,
+  completeness gates that block release on missing fields, and component-level detail for models,
+  datasets, retrieval sources, system prompts, agent frameworks, and external endpoints.
+  AIBOMs must be integrity-protected with signature validation at the release gate.
+
 * **Agentic Release Assurance and Change Control:**
   V4.4 establishes that AI agents cannot approve their own outputs, cannot trigger
   production deployments without human approval gates, and that agent permission
@@ -127,6 +135,14 @@ These controls are not the final word. They're the opening position.
   suspension, forensic preservation of agent activity, and compromise playbook
   exercise cadence.
 
+* **Additional Controls:**
+  SPVS 1.5 also includes controls for Security Requirements and Risk Assessment (V1.1),
+  Developer Tool Operation (V1.2), Credential Hygiene (V2.1), Pipeline Environment Security (V3.1),
+  Retrieval Data Governance (V3.4), Agent Identity Enforcement (V3.6), Secret Isolation for Agents (V3.7),
+  Agent Runtime Isolation (V3.8), Network and Dependency Control (V3.9), Secure Deployment Practices (V4.3),
+  Model Change Control (V4.6), and System Prompt Integrity and Governance (V4.7).
+  Review the full controls CSV for details.
+
 ---
 
 ## Community and Project Updates
@@ -137,7 +153,7 @@ These controls are not the final word. They're the opening position.
   what a well-formed contribution looks like. If you've tried to contribute before
   and found the process unclear, give it another look.
 
-* **MAINTAINERS.md Added:**
+* **JOINING_THE_TEAM.md Added:**
   We've been asked regularly how to become an actual SPVS team member rather than
   just a contributor. [JOINING_THE_TEAM.md](../JOINING_THE_TEAM.md) documents the requirements,
   the application process, and what membership means in practice. The bar is real
