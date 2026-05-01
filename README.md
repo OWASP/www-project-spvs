@@ -12,7 +12,7 @@ Built on a **multi-tiered maturity model**, SPVS allows teams to start with **ba
 
 By embedding security at every phase and continuously validating controls, SPVS transforms traditional software pipelines into **secure, resilient, and compliant systems**. It provides a **standardized, measurable approach** for organizations to **design, implement, and sustain secure pipelines**, serving as a **critical enabler** of long-term DevSecOps success.
 
-- [SPVS Offical OWASP Web Page](https://owasp.org/www-project-spvs/)
+- [SPVS Official OWASP Web Page](https://owasp.org/www-project-spvs/)
 - [Join us on Slack @ #owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)
 
 Why was the SPVS so calm during an incident? -> It had multi-factor resilience.
@@ -24,10 +24,10 @@ Why did the CI job take a coffee break? -> Too many Java exceptions!
 # Check out SPVS 1.5!
 - [Release 1.5 - AI Security - Community Feedback](/1.5/Release_Notes_OWASP_SPVS_1.5-AI-Pipeline-Security.md)
 - [How To Use SPVS](/1.5/OWASP_SPVS_1.0_How_To_Use_SPVS.md)
-- [Check out 1.0 Controls/Requirements](/www-project-spvs/1.5/OWASP_SPVS_1.0_-en_Requirements.csv)
-- [Check out Legend and Columns Overview](/www-project-spvs/1.5/OWASP_SPVS_1.0_Categories_Overview.md)
-- [How to Contribute to the SPVS](/www-project-spvs/CONTRIBUTING.md)
-- [How to Join the SPVS Team](/www-project-spvs/JOINING_THE_TEAM.md)
+- [Check out 1.0 Controls/Requirements](/1.5/OWASP_SPVS_1.0_-en_Requirements.csv)
+- [Check out Legend and Columns Overview](/1.5/OWASP_SPVS_1.0_Categories_Overview.md)
+- [How to Contribute to the SPVS](/CONTRIBUTING.md)
+- [How to Join the SPVS Team](/JOINING_THE_TEAM.md)
 
 ---
 
