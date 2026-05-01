@@ -9,9 +9,9 @@ This document outlines the stages and subcategories of the Secure Pipeline Verif
 | Column Name | Description |
 |---|---|
 | **Category_ID** | Unique identifier of the top-level SPVS category. Valid values are V1, V2, V3, V4, V5. See the list above for the corresponding names. |
-| **catagory_name** | Human readable name of the category that pairs with Category_ID. Valid values are Plan, Develop, Integrate, Release, Operate. |
+| **category_name** | Human readable name of the category that pairs with Category_ID. Valid values are Plan, Develop, Integrate, Release, Operate. |
 | **sub-category_id** | Identifier of the sub-category within the category. Format is V#.## where the first number matches Category_ID. See the lists above for valid values. |
-| **sub-catagory_name** | Human readable name of the sub-category that pairs with sub-category_id. Use the names listed above for each category. |
+| **sub-category_name** | Human readable name of the sub-category that pairs with sub-category_id. Use the names listed above for each category. |
 | **req_id** | Unique requirement identifier under a given sub-category. Format is V#.#.# for example V1.2.3. This provides traceability across documents and versions. |
 | **req_name** | Short title of the verification requirement. Keep it concise and specific so it is usable in reports and dashboards. |
 | **req_description** | Complete statement of the verification requirement. Write it as an objective condition that can be tested. |
