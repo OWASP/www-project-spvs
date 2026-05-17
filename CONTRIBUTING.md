@@ -14,7 +14,7 @@ Thank you for your interest in contributing to SPVS. We welcome all contribution
 
 1. Fork this repository and create a branch named descriptively (e.g., `add-sbom-verification-control`, `fix-v1.1.3-nist-mapping`).
 
-2. Add your proposed control(s) to `1.0/OWASP_SPVS_1.0_-en_Requirements.csv`. Keep the column order and formatting consistent with existing rows. If you're unsure of the category, pick the closest one and note it in your PR.
+2. Add your proposed control(s) to `1.5/OWASP_SPVS_1.0_-en_Requirements.csv`. Keep the column order and formatting consistent with existing rows. If you're unsure of the category, pick the closest one and note it in your PR.
 
 3. Open a pull request against the `main` branch. For new controls, your description should address:
    - What the control verifies
