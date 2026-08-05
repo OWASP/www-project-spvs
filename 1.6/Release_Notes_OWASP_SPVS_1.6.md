@@ -1,4 +1,3 @@
-```markdown
 # 1.6 RELEASE
 # Release Announcement: SPVS 1.6 — Supply Chain Attack Response (Community Edition)
 
@@ -196,4 +195,3 @@ and helps us maintain a welcoming and inclusive environment for all contributors
 
 Thank you for your interest in contributing to an OWASP project. We appreciate
 your efforts to help us improve and grow our projects.
-```
