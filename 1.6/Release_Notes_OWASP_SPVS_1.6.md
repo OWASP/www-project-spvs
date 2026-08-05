@@ -46,9 +46,9 @@ If you have opinions on where 1.7 should focus, now is the time to weigh in.
 
 # Check out SPVS 1.6!
 
-- [SPVS 1.6 Supply Chain Controls](OWASP_SPVS_1_6_-en_Requirements.csv)
-- [SPVS 1.5 AI Controls](../1.5/OWASP_SPVS_1.5_-en_Requirements.csv)
-- [SPVS 1.0 Controls for Reference](../1.0/OWASP_SPVS_1.0_-en_Requirements.csv)
+- [SPVS 1.6 Supply Chain Controls](../1.6/OWASP_SPVS_1_6_-en_Requirements.csv)
+- [SPVS 1.5 AI Controls](../1.6/OWASP_SPVS_1.5_-en_Requirements.csv)
+- [SPVS 1.0 Controls for Reference](../1.6/OWASP_SPVS_1.0_-en_Requirements.csv)
 - [How to Contribute to SPVS](../CONTRIBUTING.md)
 - [How to Join the SPVS Team](../MAINTAINERS.md)
 
@@ -178,7 +178,7 @@ shape where the standard goes next.
 
 1. **Review the 1.6 controls** against your own incident experience
 2. **Read [CONTRIBUTING.md](../CONTRIBUTING.md)** for the PR process
-3. **Read [MAINTAINERS.md](../MAINTAINERS.md)** if you want a deeper role heading
+3. **Read [JOINING_THE_TEAM.md](../JOINING_THE_TEAM.md)** if you want a deeper role heading
    into 2.0
 4. **Join [#owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)** on OWASP
    Slack
