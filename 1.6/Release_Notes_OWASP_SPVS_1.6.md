@@ -46,8 +46,8 @@ If you have opinions on where 1.7 should focus, now is the time to weigh in.
 
 # Check out SPVS 1.6!
 
-- [SPVS 1.6 Supply Chain Controls](../1.6/OWASP_SPVS_1_6_-en_Requirements.csv)
-- [SPVS 1.5 AI Controls](../1.6/OWASP_SPVS_1.5_-en_Requirements.csv)
+- [SPVS 1.6 Supply Chain Controls](../1.6/OWASP_SPVS_1.6_-en_Requirements.csv)
+- [SPVS 1.5 AI Controls](../1.6/OWASP_SPVS_1.5-AI_-en_Requirements.csv)
 - [SPVS 1.0 Controls for Reference](../1.6/OWASP_SPVS_1.0_-en_Requirements.csv)
 - [How to Contribute to SPVS](../CONTRIBUTING.md)
 - [How to Join the SPVS Team](../MAINTAINERS.md)
