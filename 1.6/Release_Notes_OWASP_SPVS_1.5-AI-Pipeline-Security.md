@@ -174,9 +174,8 @@ This is a community feedback release. Getting involved is the point.
    or have real-world context that should inform the standard
 2. **Watch for 1.6** if you have experience with TeamPCP, Axios, or similar supply
    chain attacks and want to help shape those controls
-3. **Read [CONTRIBUTING.md](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)** for the PR process
-4. **Read [JOINING_THE_TEAM.md](https://github.com/OWASP/www-project-spvs/blob/main/JOINING_THE_TEAM.md)** if you want a deeper role heading
-   into 2.0
+3. **Read [CONTRIBUTING.md](../CONTRIBUTING.md)** for the PR process
+4. **Read [JOINING_THE_TEAM.md](../JOINING_THE_TEAM.md)** if you want a deeper role heading into 2.0
 5. **Join [#owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)** on OWASP
    Slack and introduce yourself
 
