@@ -52,13 +52,13 @@ To provide a **robust suite of controls and best practices** that:
 * **Automates security validation and compliance** within software pipeline processes.
 * **Elevates security maturity** progressively through the SPVS stages.
 
-Ultimately, SPVS empowers organizations to deliver **secure, reliable, and compliant software** — efficiently and at scale.
+Ultimately, SPVS empowers organizations to deliver **secure, reliable, and compliant software**, efficiently and at scale.
 
 ---
 
 ## **Key Aspects of the SPVS Guide**
 
-The **Secure Pipeline Verification Standard (SPVS)** provides a structured, adaptable, and actionable framework that integrates security across all stages of the software pipeline — **Plan, Develop, Integrate, Release, and Operate**.
+The **Secure Pipeline Verification Standard (SPVS)** provides a structured, adaptable, and actionable framework that integrates security across all stages of the software pipeline: **Plan, Develop, Integrate, Release, and Operate**.
 
 ### **1. Multilevel Control Framework**
 
@@ -81,7 +81,7 @@ Provides a **stage-by-stage roadmap** for building secure pipelines.
 Delivers **flexible, environment-agnostic controls** tailored to diverse software delivery ecosystems.
 
 * Supports **multi-cloud**, **hybrid**, and **on-premises** architectures.
-* Adaptable to varied methodologies — **Agile, DevOps, DevSecOps, and Platform Engineering**.
+* Adaptable to varied methodologies: **Agile, DevOps, DevSecOps, and Platform Engineering**.
 * Ensures **context-aware security integration** across tooling (e.g., GitHub Actions, GitLab software pipeline, Jenkins, Azure DevOps).
 
 ### **4. Comprehensive Pipeline Coverage**
