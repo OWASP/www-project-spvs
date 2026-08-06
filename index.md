@@ -26,13 +26,18 @@ By embedding security at every phase and continuously validating controls, SPVS 
 
 ---
 
+## Check out SPVS 1.6!
+* [Release 1.6 - Community Feedback - Release Notes](https://github.com/OWASP/www-project-spvs/blob/main/1.6/Release_Notes_OWASP_SPVS_1.6.md)
+* [Release 1.6 - Controls/Requirements (CSV)](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.6_-en_Requirements.csv)
+* [Release 1.5 - AI Security - Community Feedback](https://github.com/OWASP/www-project-spvs/blob/main/1.6/Release_Notes_OWASP_SPVS_1.5-AI-Pipeline-Security.md)
+* [How To Use SPVS](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.0_How_To_Use_SPVS.md)
+* [Legend and Columns Overview](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.0_Categories_Overview.md)
+* [All Controls/Requirements](https://github.com/OWASP/www-project-spvs/tree/main/1.6)
+
 ## Useful Links
 * [Join us on Slack @ #owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)
-* [Release 1.6 - Supply Chain Attack Response - Release Notes](https://github.com/OWASP/www-project-spvs/blob/main/1.6/Release_Notes_OWASP_SPVS_1.6.md)
-* [Release 1.6 - Supply Chain Attack Response - Community Feedback](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.6_-en_Requirements.csv)
-* [Release 1.5 - AI Security - Community Feedback](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.5-AI_-en_Requirements.csv)
-* [Release 1.0 (Oct 2025)](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.0_-en_Requirements.csv)
 * [GitHub Link](https://github.com/OWASP/www-project-spvs)
+* [Release 1.0 (Oct 2025)](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.0_-en_Requirements.csv)
 * [How to Contribute](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
 * [How to Join the SPVS Team](https://github.com/OWASP/www-project-spvs/blob/main/JOINING_THE_TEAM.md)
 
@@ -47,13 +52,13 @@ To provide a **robust suite of controls and best practices** that:
 * **Automates security validation and compliance** within software pipeline processes.
 * **Elevates security maturity** progressively through the SPVS stages.
 
-Ultimately, SPVS empowers organizations to deliver **secure, reliable, and compliant software** — efficiently and at scale.
+Ultimately, SPVS empowers organizations to deliver **secure, reliable, and compliant software**, efficiently and at scale.
 
 ---
 
 ## **Key Aspects of the SPVS Guide**
 
-The **Secure Pipeline Verification Standard (SPVS)** provides a structured, adaptable, and actionable framework that integrates security across all stages of the software pipeline — **Plan, Develop, Integrate, Release, and Operate**.
+The **Secure Pipeline Verification Standard (SPVS)** provides a structured, adaptable, and actionable framework that integrates security across all stages of the software pipeline: **Plan, Develop, Integrate, Release, and Operate**.
 
 ### **1. Multilevel Control Framework**
 
@@ -76,7 +81,7 @@ Provides a **stage-by-stage roadmap** for building secure pipelines.
 Delivers **flexible, environment-agnostic controls** tailored to diverse software delivery ecosystems.
 
 * Supports **multi-cloud**, **hybrid**, and **on-premises** architectures.
-* Adaptable to varied methodologies — **Agile, DevOps, DevSecOps, and Platform Engineering**.
+* Adaptable to varied methodologies: **Agile, DevOps, DevSecOps, and Platform Engineering**.
 * Ensures **context-aware security integration** across tooling (e.g., GitHub Actions, GitLab software pipeline, Jenkins, Azure DevOps).
 
 ### **4. Comprehensive Pipeline Coverage**
