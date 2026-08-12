@@ -46,13 +46,13 @@ Why did the CI job take a coffee break? -> Too many Java exceptions!
 ---
 
 # Check out SPVS 1.6!
-- [Release 1.6 - Community Feedback](/1.6/Release_Notes_OWASP_SPVS_1.6.md)
-- [Release 1.5 - AI Security - Community Feedback](/1.6/Release_Notes_OWASP_SPVS_1.5-AI-Pipeline-Security.md)
-- [How To Use SPVS](/1.6/OWASP_SPVS_1.0_How_To_Use_SPVS.md)
-- [Check out Controls/Requirements](/1.6/)
-- [Check out Legend and Columns Overview](/1.6/OWASP_SPVS_1.0_Categories_Overview.md)
-- [How to Contribute to the SPVS](/CONTRIBUTING.md)
-- [How to Join the SPVS Team](/JOINING_THE_TEAM.md)
+- [Release 1.6 - Community Feedback](1.6/Release_Notes_OWASP_SPVS_1.6.md)
+- [Release 1.5 - AI Security - Community Feedback](1.6/Release_Notes_OWASP_SPVS_1.5-AI-Pipeline-Security.md)
+- [How To Use SPVS](1.6/OWASP_SPVS_1.0_How_To_Use_SPVS.md)
+- [Check out Controls/Requirements](1.6/)
+- [Check out Legend and Columns Overview](1.6/OWASP_SPVS_1.0_Categories_Overview.md)
+- [How to Contribute to the SPVS](CONTRIBUTING.md)
+- [How to Join the SPVS Team](JOINING_THE_TEAM.md)
 
 ---
 
@@ -252,6 +252,34 @@ Maintain and protect production environments.
 Why did the SPVS framework start a band? -> It already had great stages!
 
 ---
+
+## How SPVS Releases Work
+
+SPVS ships two kinds of releases, and knowing the difference tells you how to read each one and how to get involved.
+
+### Official releases
+
+Official releases (1.0, and 2.0 coming autumn 2026) are the consolidated standard: the full control set across all five stages (Plan, Develop, Integrate, Release, and Operate), reviewed, numbered, and stable enough to build a program against. When you adopt SPVS or cite it in an assessment, you cite an official release.
+
+### Community feedback releases
+
+Community feedback releases (1.5 AI Pipeline Security, 1.6 Supply Chain Attack Response) are focused control sets published between official releases, each responding to a specific shift in the threat landscape. They ship early and in the open, on purpose:
+
+- **They are demand-driven.** Each one is built from real incidents, changes in ecosystem, and events. E.g. Every control in 1.6 carries an incident anchor.
+- **They are drafts by design.** The wording, scope, and levels are open to challenge. Community review happens before the controls join the standard, not after.
+- **They roll up.** Controls that survive community review are consolidated into the next official release. Feedback on 1.5 and 1.6 is shaping SPVS 2.0 right now; submissions for 2.0 are due by October 1, 2026. The scope of the 1.7 community release (September 2026) is also being set now, and proposals for what it should cover are welcome.
+
+If a control seems wrong, too heavy, untestable, or missing, that reaction is the input we published for.
+
+### How to contribute a verification
+
+The fastest way to influence the standard is to bring us the attack classes you have actually defended against and the verifications you would want every team to run.
+
+1. **Open an issue** when a control misses a technique, bundles too much into one line, or cannot be tested as written. Reference the control ID (for example, V3.4.7).
+2. **Open a pull request** to propose a new verification or a rewording. See [CONTRIBUTING.md](CONTRIBUTING.md) for the control format and PR conventions.
+3. **Join the discussion** in [#owasp-spvs](https://owasp.slack.com/archives/C0AQW879656) on OWASP Slack, where proposed controls get debated before they land.
+
+Community-contributed verifications are reviewed by the project leads and, when accepted, carry into the next release with the contributor credited. Your incident experience is the raw material this standard is made from.
 
 ## License
 

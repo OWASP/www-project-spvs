@@ -45,8 +45,8 @@ SPVS 1.5 includes 132 controls across 31 sub-categories.
 
 # Check out SPVS 1.5!
 
-* [SPVS 1.5 AI Controls](https://github.com/OWASP/www-project-spvs/blob/main/1.5/OWASP_SPVS_1.5-AI_-en_Requirements.csv)
-* [SPVS 1.0 Controls for Reference](https://github.com/OWASP/www-project-spvs/blob/main/1.5/OWASP_SPVS_1.0_-en_Requirements.csv)
+* [SPVS 1.5 AI Controls](OWASP_SPVS_1.5-AI_-en_Requirements.csv)
+* [SPVS 1.0 Controls for Reference](OWASP_SPVS_1.0_-en_Requirements.csv)
 * [How to Contribute to SPVS](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
 * [JOINING_THE_TEAM.md](https://github.com/OWASP/www-project-spvs/blob/main/JOINING_THE_TEAM.md)
 
