@@ -1,5 +1,12 @@
-![alt text](assets/images/SPVS_Logo.png)
-## Project - Secure Pipeline Verification Standard (SPVS)
+![SPVS Logo](assets/images/SPVS_Logo.png)
+
+# Secure Pipeline Verification Standard (SPVS)
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE.md)
+[![Slack](https://img.shields.io/badge/Slack-%23owasp--spvs-blue?logo=slack)](https://owasp.slack.com/archives/C0AQW879656)
+[![Last Commit](https://img.shields.io/github/last-commit/OWASP/www-project-spvs)](https://github.com/OWASP/www-project-spvs/commits/main)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 ---
 
 ## **SPVS**
@@ -14,10 +21,27 @@ By embedding security at every phase and continuously validating controls, SPVS 
 
 - [SPVS Official OWASP Web Page](https://owasp.org/www-project-spvs/)
 - [Join us on Slack @ #owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)
+- Found a bug or have an idea? [Log an issue](https://github.com/OWASP/www-project-spvs/issues) or [open a Pull Request](https://github.com/OWASP/www-project-spvs/pulls)
 
 Why was the SPVS so calm during an incident? -> It had multi-factor resilience.
 
 Why did the CI job take a coffee break? -> Too many Java exceptions!
+
+---
+
+## Table of Contents
+
+- [Getting Started](#check-out-spvs-16)
+- [How To Reference SPVS Requirements](#how-to-reference-spvs-requirements)
+- [Goal](#goal)
+- [Key Aspects of the SPVS Guide](#key-aspects-of-the-spvs-guide)
+- [Scope](#scope)
+- [Audience](#audience)
+- [Principles](#principles)
+- [SPVS Stages](#spvs-stages)
+- [Contributing](CONTRIBUTING.md)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
@@ -29,6 +53,18 @@ Why did the CI job take a coffee break? -> Too many Java exceptions!
 - [Check out Legend and Columns Overview](/1.6/OWASP_SPVS_1.0_Categories_Overview.md)
 - [How to Contribute to the SPVS](/CONTRIBUTING.md)
 - [How to Join the SPVS Team](/JOINING_THE_TEAM.md)
+
+---
+
+## How To Reference SPVS Requirements
+
+Each requirement has an identifier in the format `<category>.<sub-category>.<requirement>`, where `category` and `sub-category` correspond to the `category_id` and `sub-category_id` columns in the requirements CSV, and `requirement` is the `req_id`. For example, `V1.1.1`:
+
+* The `V1` category corresponds to the **Plan** stage.
+* The `V1.1` sub-category corresponds to **Identity and Access Management** within that stage.
+* The `V1.1.1` requirement identifies the specific control: *"Verify that accounts used to publish packages require phishing-resistant multi-factor authentication, and that this requirement applies separately to each package."*
+
+Since identifiers may change between versions of the standard, when citing a requirement in another document, report, or tool, prefix it with the SPVS version, e.g. `v1.6-V1.1.1`, so the reference remains unambiguous as SPVS evolves.
 
 ---
 
@@ -214,6 +250,20 @@ Maintain and protect production environments.
 ---
 
 Why did the SPVS framework start a band? -> It already had great stages!
+
+---
+
+## License
+
+SPVS is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE.md).
+
+---
+
+## Contact
+
+- **Project Leaders:** see [leaders.md](leaders.md)
+- **Report a security issue:** see [SECURITY.md](SECURITY.md)
+- **Community discussion:** [Join us on Slack @ #owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)
 
 ---
 ## Code of Conduct
