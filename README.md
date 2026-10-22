@@ -1,4 +1,4 @@
-![SPVS Logo](assets/images/SPVS_Banner-2.0)
+![SPVS Logo](assets/images/SPVS_Banner-2.0.png)
 
 # Secure Pipeline Verification Standard (SPVS)
 
