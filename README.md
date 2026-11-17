@@ -45,7 +45,7 @@ Why did the CI job take a coffee break? -> Too many Java exceptions!
 
 ---
 
-# Check out SPVS 1.6!
+# Check out SPVS 2.0!
 - [Release 2.0](2.0/OWASP_SPVS-2.0-Release_Notes.md)
 - [How To Use SPVS](1.6/OWASP_SPVS_How_To_Use_SPVS.md)
 - [Check out Controls/Requirements](1.6/)
