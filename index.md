@@ -26,13 +26,8 @@ By embedding security at every phase and continuously validating controls, SPVS 
 
 ---
 
-## Check out SPVS 1.6!
-* [Release 1.6 - Community Feedback - Release Notes](https://github.com/OWASP/www-project-spvs/blob/main/1.6/Release_Notes_OWASP_SPVS_1.6.md)
-* [Release 1.6 - Controls/Requirements (CSV)](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.6_-en_Requirements.csv)
-* [Release 1.5 - AI Security - Community Feedback](https://github.com/OWASP/www-project-spvs/blob/main/1.6/Release_Notes_OWASP_SPVS_1.5-AI-Pipeline-Security.md)
-* [How To Use SPVS](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.0_How_To_Use_SPVS.md)
-* [Legend and Columns Overview](https://github.com/OWASP/www-project-spvs/blob/main/1.6/OWASP_SPVS_1.0_Categories_Overview.md)
-* [All Controls/Requirements](https://github.com/OWASP/www-project-spvs/tree/main/1.6)
+## Check out SPVS 2.0!
+- [Release 2.0](2.0/OWASP_SPVS-2.0-Release_Notes.md)
 
 ## Useful Links
 * [Join us on Slack @ #owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)
