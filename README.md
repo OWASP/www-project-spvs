@@ -258,7 +258,7 @@ SPVS ships two kinds of releases, and knowing the difference tells you how to re
 
 ### Official releases
 
-Official releases (1.0, and 2.0 coming autumn 2026) are the consolidated standard: the full control set across all five stages (Plan, Develop, Integrate, Release, and Operate), reviewed, numbered, and stable enough to build a program against. When you adopt SPVS or cite it in an assessment, you cite an official release.
+Official releases (1.0, and 2.0) are the consolidated standard: the full control set across all five stages (Plan, Develop, Integrate, Release, and Operate), reviewed, numbered, and stable enough to build a program against. When you adopt SPVS or cite it in an assessment, you cite an official release.
 
 ### Community feedback releases
 
@@ -266,7 +266,7 @@ Community feedback releases (1.5 AI Pipeline Security, 1.6 Supply Chain Attack R
 
 - **They are demand-driven.** Each one is built from real incidents, changes in ecosystem, and events. E.g. Every control in 1.6 carries an incident anchor.
 - **They are drafts by design.** The wording, scope, and levels are open to challenge. Community review happens before the controls join the standard, not after.
-- **They roll up.** Controls that survive community review are consolidated into the next official release. Feedback on 1.5 and 1.6 is shaping SPVS 2.0 right now; submissions for 2.0 are due by October 1, 2026. The scope of the 1.7 community release (September 2026) is also being set now, and proposals for what it should cover are welcome.
+- **They roll up.** Controls that survive community review are consolidated into the next official release.
 
 If a control seems wrong, too heavy, untestable, or missing, that reaction is the input we published for.
 
