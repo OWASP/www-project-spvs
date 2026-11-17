@@ -8,7 +8,7 @@ Thank you to everyone who reviewed, debated, and contributed to the community re
 
 # Check out SPVS 2.0!
 - [Check out 2.0 Controls/Requirements](OWASP_SPVS_2.0_-en_Requirements.csv)
-- [How to Contribute to the SPVS](../JOINING_THE_TEAM.md)
+- [How to Contribute to the SPVS](../CONTRIBUTING.md)
 - [How to Join the SPVS Team](../JOINING_THE_TEAM.md)
 ---
 # **SPVS 2.0 Release Notes**
@@ -88,7 +88,7 @@ Thank you to everyone who reviewed, debated, and contributed to the community re
 ## How to Contribute
 1. **Review Project Overview:** We recommend for those who want to contribute to please review [\www-project-spvs\README.md](https://github.com/OWASP/www-project-spvs/blob/main/README.md) file
 2. **How to Contribute:** Follow steps in [JOINING_THE_TEAM.md](./../JOINING_THE_TEAM.md) file
-3. **Join the Team:** See [MAINTAINERS.md](./../MAINTAINERS.md) and come say hi in [#owasp-spvs](https://owasp.slack.com/archives/C0AQW879656) on OWASP Slack
+3. **Join the Team:** See [leaders.md](./../leaders.md) and come say hi in [#owasp-spvs](https://owasp.slack.com/archives/C0AQW879656) on OWASP Slack
 
 We look forward to debating the changes and seeing what possible changes come forward!
 
