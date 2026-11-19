@@ -14,7 +14,7 @@ Thank you for your interest in contributing to SPVS. We welcome all contribution
 
 1. Fork this repository and create a branch named descriptively (e.g., `add-sbom-verification-control`, `fix-v1.1.3-nist-mapping`).
 
-2. Edit the requirements CSV for the edition you are changing: `1.6/OWASP_SPVS_1.0_-en_Requirements.csv`, `1.6/OWASP_SPVS_1.5-AI_-en_Requirements.csv`, or `1.6/OWASP_SPVS_1.6_-en_Requirements.csv`. The 1.5-AI and 1.6 editions are community-feedback drafts. Keep the column order and formatting consistent with existing rows. Identify the edition in your PR; if you're unsure of the category or placement for a new control, pick the closest one and explain your choice.
+2. For changes to SPVS 2.0, edit [the 2.0 requirements CSV](2.0/OWASP_SPVS_2.0_-en_Requirements.csv). Keep the column order and formatting consistent with the existing rows. If you are unsure where a new control belongs, choose the closest category and explain your choice in the PR. If your change targets an older edition, name that edition and edit its requirements file.
 
 3. Open a pull request against the `main` branch. For new controls, your description should address:
    - What the control verifies
