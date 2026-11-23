@@ -47,8 +47,8 @@ SPVS 1.5 includes 132 controls across 31 sub-categories.
 
 * [SPVS 1.5 AI Controls](OWASP_SPVS_1.5-AI_-en_Requirements.csv)
 * [SPVS 1.0 Controls for Reference](OWASP_SPVS_1.0_-en_Requirements.csv)
-* [How to Contribute to SPVS](https://github.com/OWASP/www-project-spvs/blob/main/CONTRIBUTING.md)
-* [JOINING_THE_TEAM.md](https://github.com/OWASP/www-project-spvs/blob/main/JOINING_THE_TEAM.md)
+* [How to Contribute to SPVS](../CONTRIBUTING.md)
+* [JOINING_THE_TEAM.md](../JOINING_THE_TEAM.md)
 
 ---
 
@@ -155,7 +155,7 @@ SPVS 1.5 includes 132 controls across 31 sub-categories.
 
 * **JOINING_THE_TEAM.md Added:**
   We've been asked regularly how to become an actual SPVS team member rather than
-  just a contributor. [JOINING_THE_TEAM.md](https://github.com/OWASP/www-project-spvs/blob/main/JOINING_THE_TEAM.md) documents the requirements,
+  just a contributor. [JOINING_THE_TEAM.md](../JOINING_THE_TEAM.md) documents the requirements,
   the application process, and what membership means in practice. The bar is real
   but the door is open.
 
@@ -175,7 +175,8 @@ This is a community feedback release. Getting involved is the point.
 2. **Watch for 1.6** if you have experience with TeamPCP, Axios, or similar supply
    chain attacks and want to help shape those controls
 3. **Read [CONTRIBUTING.md](../CONTRIBUTING.md)** for the PR process
-4. **Read [JOINING_THE_TEAM.md](../JOINING_THE_TEAM.md)** if you want a deeper role heading into 2.0
+4. **Read [MAINTAINERS.md](../JOINING_THE_TEAM.md)** if you want a deeper role heading
+   into 2.0
 5. **Join [#owasp-spvs](https://owasp.slack.com/archives/C0AQW879656)** on OWASP
    Slack and introduce yourself
 
